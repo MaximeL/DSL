@@ -312,7 +312,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6W0sWHAVV3g" role="3cqZAp" />
+        <node concept="3clFbH" id="48UYyoDRulq" role="3cqZAp" />
         <node concept="3clFbF" id="6W0sWHAVVnz" role="3cqZAp">
           <node concept="2OqwBi" id="6W0sWHAVVD_" role="3clFbG">
             <node concept="10M0yZ" id="6W0sWHAVVxI" role="2Oq$k0">
@@ -323,6 +323,20 @@
               <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="6W0sWHAVVZk" role="37wK5m">
                 <property role="Xl_RC" value="    // Here comes states declarations" />
+              </node>
+            </node>
+          </node>
+          <node concept="2b32R4" id="48UYyoDRuQr" role="lGtFl">
+            <node concept="3JmXsc" id="48UYyoDRuQu" role="2P8S$">
+              <node concept="3clFbS" id="48UYyoDRuQv" role="2VODD2">
+                <node concept="3clFbF" id="48UYyoDRuQ_" role="3cqZAp">
+                  <node concept="2OqwBi" id="48UYyoDRuQw" role="3clFbG">
+                    <node concept="3Tsc0h" id="48UYyoDRuQz" role="2OqNvi">
+                      <ref role="3TtcxE" to="eejj:6W0sWHAVqAJ" />
+                    </node>
+                    <node concept="30H73N" id="48UYyoDRuQ$" role="2Oq$k0" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -346,20 +360,20 @@
                   </node>
                   <node concept="Xl_RD" id="6W0sWHAVXBT" role="3uHU7w">
                     <property role="Xl_RC" value="init_state" />
-                    <node concept="17Uvod" id="6W0sWHAW04F" role="lGtFl">
+                    <node concept="17Uvod" id="48UYyoDQJBp" role="lGtFl">
                       <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
                       <property role="2qtEX9" value="value" />
-                      <node concept="3zFVjK" id="6W0sWHAW04G" role="3zH0cK">
-                        <node concept="3clFbS" id="6W0sWHAW04H" role="2VODD2">
-                          <node concept="3clFbF" id="6W0sWHAW0qq" role="3cqZAp">
-                            <node concept="2OqwBi" id="6W0sWHAWbbD" role="3clFbG">
-                              <node concept="2OqwBi" id="6W0sWHAW0xQ" role="2Oq$k0">
-                                <node concept="30H73N" id="6W0sWHAW0qp" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="6W0sWHAWaT9" role="2OqNvi">
+                      <node concept="3zFVjK" id="48UYyoDQJBq" role="3zH0cK">
+                        <node concept="3clFbS" id="48UYyoDQJBr" role="2VODD2">
+                          <node concept="3clFbF" id="48UYyoDQTRd" role="3cqZAp">
+                            <node concept="2OqwBi" id="48UYyoDR4Xc" role="3clFbG">
+                              <node concept="2OqwBi" id="48UYyoDQUgr" role="2Oq$k0">
+                                <node concept="30H73N" id="48UYyoDQTRc" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="48UYyoDR4EP" role="2OqNvi">
                                   <ref role="3Tt5mk" to="eejj:6W0sWHAVqAM" />
                                 </node>
                               </node>
-                              <node concept="3TrcHB" id="6W0sWHAWbzg" role="2OqNvi">
+                              <node concept="3TrcHB" id="48UYyoDR5kE" role="2OqNvi">
                                 <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                               </node>
                             </node>
@@ -820,7 +834,7 @@
                 <node concept="3clFbF" id="6W0sWHAWLND" role="3cqZAp">
                   <node concept="2OqwBi" id="6W0sWHAWLN$" role="3clFbG">
                     <node concept="30H73N" id="6W0sWHAWLNC" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="6W0sWHAWOHE" role="2OqNvi">
+                    <node concept="3TrEf2" id="48UYyoDRiPC" role="2OqNvi">
                       <ref role="3Tt5mk" to="eejj:6W0sWHAVq$J" />
                     </node>
                   </node>
