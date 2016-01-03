@@ -31,7 +31,7 @@ Location : http://download.eclipse.org/modeling/tmf/xtext/updates/composite/rele
 
 3) décocher use default namespace parameters
 mettre dans le Ns Uri : fr.uns.polytech.al.arduinoML
-puis cliquer sur next
+puis cliquer sur nextn
 
 4) vérifier que seulement Design est coché
 puis finish
