@@ -227,6 +227,20 @@
           </node>
         </node>
         <node concept="3clFbH" id="6W0sWHAV7$i" role="3cqZAp" />
+        <node concept="3clFbF" id="7aBJqsZDwoX" role="3cqZAp">
+          <node concept="2OqwBi" id="7aBJqsZDyrV" role="3clFbG">
+            <node concept="10M0yZ" id="7aBJqsZDwI3" role="2Oq$k0">
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="7aBJqsZDzcS" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="7aBJqsZDzdE" role="37wK5m">
+                <property role="Xl_RC" value="/n// Structural concepts" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="6W0sWHAV7_L" role="3cqZAp">
           <node concept="2OqwBi" id="6W0sWHAV7Ez" role="3clFbG">
             <node concept="10M0yZ" id="6W0sWHAV7_K" role="2Oq$k0">
