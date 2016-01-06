@@ -15,7 +15,7 @@
       <concept id="7998520255652176895" name="ArduinoML.structure.App" flags="ng" index="9U_0O">
         <reference id="7998520255652407730" name="init_state" index="9VtDT" />
         <child id="7998520255652176902" name="bricks" index="9U_vd" />
-        <child id="7998520255652407727" name="state" index="9VtD$" />
+        <child id="7998520255652407727" name="states" index="9VtD$" />
       </concept>
       <concept id="7998520255652175918" name="ArduinoML.structure.Actuator" flags="ng" index="9U_f_" />
       <concept id="7998520255652407669" name="ArduinoML.structure.Action" flags="ng" index="9VtEY">
@@ -23,7 +23,7 @@
         <reference id="7998520255652407699" name="actuator" index="9VtDo" />
       </concept>
       <concept id="7998520255652407567" name="ArduinoML.structure.State" flags="ng" index="9VtF4">
-        <child id="7998520255652407599" name="transition" index="9VtF$" />
+        <child id="7998520255652407599" name="transitions" index="9VtF$" />
         <child id="7998520255652407597" name="actions" index="9VtFA" />
       </concept>
       <concept id="7998520255652407614" name="ArduinoML.structure.Transition" flags="ng" index="9VtFP">
@@ -49,11 +49,23 @@
       <property role="TrG5h" value="button" />
       <property role="9U_0S" value="8" />
     </node>
+    <node concept="9U_0M" id="Ellu7LgpoQ" role="9U_vd">
+      <property role="TrG5h" value="button2" />
+      <property role="9U_0S" value="10" />
+    </node>
+    <node concept="9U_f_" id="Ellu7Lgjrb" role="9U_vd">
+      <property role="TrG5h" value="buzzer" />
+      <property role="9U_0S" value="9" />
+    </node>
     <node concept="9VtF4" id="6W0sWHAVC5C" role="9VtD$">
       <property role="TrG5h" value="off" />
       <node concept="9VtEY" id="6W0sWHAVC5G" role="9VtFA">
         <property role="9VtDq" value="false" />
         <ref role="9VtDo" node="6W0sWHAUyCW" resolve="red_led" />
+      </node>
+      <node concept="9VtEY" id="Ellu7Lgllz" role="9VtFA">
+        <property role="9VtDq" value="false" />
+        <ref role="9VtDo" node="Ellu7Lgjrb" resolve="buzzer" />
       </node>
       <node concept="9VtFP" id="6W0sWHAVC5D" role="9VtF$">
         <property role="9VtEn" value="true" />
@@ -67,8 +79,12 @@
         <property role="9VtDq" value="true" />
         <ref role="9VtDo" node="6W0sWHAUyCW" resolve="red_led" />
       </node>
+      <node concept="9VtEY" id="Ellu7LgllE" role="9VtFA">
+        <property role="9VtDq" value="true" />
+        <ref role="9VtDo" node="Ellu7Lgjrb" resolve="buzzer" />
+      </node>
       <node concept="9VtFP" id="6W0sWHAVC5J" role="9VtF$">
-        <property role="9VtEn" value="true" />
+        <property role="9VtEn" value="false" />
         <ref role="9VtEF" node="6W0sWHAUyD8" resolve="button" />
         <ref role="9VtED" node="6W0sWHAVC5C" resolve="off" />
       </node>
