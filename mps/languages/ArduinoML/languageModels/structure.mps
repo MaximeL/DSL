@@ -122,7 +122,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="transitions" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="6W0sWHAVq$Y" resolve="Transition" />
+      <ref role="20lvS9" node="6k5VhrYd1HQ" resolve="TransitionGroup" />
     </node>
   </node>
   <node concept="1TIwiD" id="6W0sWHAVq$Y">
@@ -135,15 +135,9 @@
     </node>
     <node concept="1TJgyj" id="6W0sWHAVq_w" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="condition" />
+      <property role="20kJfa" value="sensor" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7xDGtGjKhqd" resolve="Condition" />
-    </node>
-    <node concept="1TJgyj" id="6W0sWHAVq_y" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6W0sWHAVq$f" resolve="State" />
+      <ref role="20lvS9" node="6W0sWHAUyfT" resolve="Sensor" />
     </node>
   </node>
   <node concept="1TIwiD" id="6W0sWHAVq_P">
@@ -174,47 +168,20 @@
       <property role="1uS6qo" value="low" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7xDGtGjKhqd">
-    <property role="1pbfSe" value="1943353240" />
-    <property role="TrG5h" value="Condition" />
+  <node concept="1TIwiD" id="6k5VhrYd1HQ">
+    <property role="1pbfSe" value="1664747660" />
+    <property role="TrG5h" value="TransitionGroup" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7xDGtGjKhrr" role="1TKVEi">
+    <node concept="1TJgyj" id="6k5VhrYd1Ik" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="transitions" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="6W0sWHAVq$Y" resolve="Transition" />
+    </node>
+    <node concept="1TJgyj" id="6k5VhrYdvSP" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="operator" />
-      <ref role="20lvS9" node="7xDGtGjKhru" resolve="Operator" />
-    </node>
-    <node concept="1TJgyj" id="7xDGtGjKhrp" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="sensor" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6W0sWHAUyfT" resolve="Sensor" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7xDGtGjKhru">
-    <property role="1pbfSe" value="1943353159" />
-    <property role="TrG5h" value="Operator" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7xDGtGjKhrU" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="condition" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7xDGtGjKhqd" resolve="Condition" />
-    </node>
-    <node concept="1TJgyi" id="7xDGtGjKhrW" role="1TKVEl">
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="7xDGtGjKhsP" resolve="BooleanOperator" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="7xDGtGjKhsP">
-    <property role="TrG5h" value="BooleanOperator" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="7xDGtGjKhsQ" role="M5hS2">
-      <property role="1uS6qv" value="'and'" />
-      <property role="1uS6qo" value="and" />
-    </node>
-    <node concept="M4N5e" id="7xDGtGjKhsR" role="M5hS2">
-      <property role="1uS6qv" value="'or'" />
-      <property role="1uS6qo" value="or" />
+      <property role="20kJfa" value="target" />
+      <ref role="20lvS9" node="6W0sWHAVq$f" resolve="State" />
     </node>
   </node>
 </model>
