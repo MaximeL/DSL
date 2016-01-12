@@ -50,7 +50,18 @@
       <property role="TrG5h" value="off" />
       <node concept="2rcvpw" id="6k5VhrYdyt6" role="9VtF$">
         <ref role="2rc1cz" node="6k5VhrYd$p1" resolve="on" />
-        <node concept="9VtFP" id="6k5VhrYd$pd" role="2rcvq2">
+        <node concept="9VtFP" id="2I4T85niuJs" role="2rcvq2">
+          <property role="9VtEn" value="false" />
+          <ref role="9VtEF" node="Ellu7LgpoQ" resolve="button2" />
+        </node>
+        <node concept="9VtFP" id="2I4T85niuJf" role="2rcvq2">
+          <property role="9VtEn" value="true" />
+          <ref role="9VtEF" node="6W0sWHAUyD8" resolve="button" />
+        </node>
+      </node>
+      <node concept="2rcvpw" id="2I4T85niuJw" role="9VtF$">
+        <ref role="2rc1cz" node="6k5VhrYdyt5" resolve="off" />
+        <node concept="9VtFP" id="2I4T85niuJB" role="2rcvq2">
           <property role="9VtEn" value="true" />
           <ref role="9VtEF" node="6W0sWHAUyD8" resolve="button" />
         </node>
