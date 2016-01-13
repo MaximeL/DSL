@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0e652d73-6289-4ce3-b138-d71bc31f75f2(ArduinoML.sandbox)">
+<model ref="r:43ac8f04-82fb-46a0-9079-f82485aa875c(ArduinoML.MultiState)">
   <persistence version="9" />
   <languages>
-    <use id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML" version="0" />
   </languages>
-  <imports>
-    <import index="m1dl" ref="r:0e652d73-6289-4ce3-b138-d71bc31f75f2(ArduinoML.sandbox)" />
-  </imports>
+  <imports />
   <registry>
     <language id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML">
       <concept id="7998520255652132075" name="ArduinoML.structure.Brick" flags="ng" index="9Ugsw">
@@ -43,59 +40,70 @@
       </concept>
     </language>
   </registry>
-  <node concept="9U_0O" id="65R_3l9W4FZ">
-    <property role="TrG5h" value="DualCheck" />
-    <ref role="9VtDT" node="65R_3l9W4H3" resolve="off" />
-    <node concept="9VtF4" id="65R_3l9W4H3" role="9VtD$">
+  <node concept="9U_0O" id="65R_3l9WHT9">
+    <property role="TrG5h" value="MultiState" />
+    <ref role="9VtDT" node="65R_3l9WHTT" resolve="off" />
+    <node concept="9VtF4" id="65R_3l9WHTT" role="9VtD$">
       <property role="TrG5h" value="off" />
-      <node concept="2rcvpw" id="65R_3l9W4H4" role="9VtF$">
-        <ref role="2rc1cz" node="65R_3l9W4HA" resolve="on" />
-        <node concept="9VtFP" id="65R_3l9WpEd" role="2rcvq2">
+      <node concept="2rcvpw" id="65R_3l9WHTU" role="9VtF$">
+        <ref role="2rc1cz" node="65R_3l9WHUb" resolve="noize" />
+        <node concept="9VtFP" id="65R_3l9WHU8" role="2rcvq2">
           <property role="9VtEn" value="true" />
-          <ref role="9VtEF" node="65R_3l9W4Gy" resolve="button2" />
-        </node>
-        <node concept="9VtFP" id="65R_3l9W4Hk" role="2rcvq2">
-          <property role="9VtEn" value="true" />
-          <ref role="9VtEF" node="65R_3l9W4Gs" resolve="button" />
+          <ref role="9VtEF" node="65R_3l9WHTA" resolve="button" />
         </node>
       </node>
-      <node concept="9VtEY" id="65R_3l9W4Hi" role="9VtFA">
+      <node concept="9VtEY" id="65R_3l9WHTZ" role="9VtFA">
         <property role="9VtDq" value="false" />
-        <ref role="9VtDo" node="65R_3l9W4GE" resolve="buzzer" />
+        <ref role="9VtDo" node="65R_3l9WHTG" resolve="buzzer" />
+      </node>
+      <node concept="9VtEY" id="65R_3l9WHU4" role="9VtFA">
+        <property role="9VtDq" value="false" />
+        <ref role="9VtDo" node="65R_3l9WHTO" resolve="light" />
       </node>
     </node>
-    <node concept="9VtF4" id="65R_3l9W4HA" role="9VtD$">
-      <property role="TrG5h" value="on" />
-      <node concept="2rcvpw" id="65R_3l9W4HB" role="9VtF$">
-        <ref role="2rc1cz" node="65R_3l9W4H3" resolve="off" />
-        <node concept="9VtFP" id="65R_3l9W4HN" role="2rcvq2">
-          <property role="9VtEn" value="false" />
-          <ref role="9VtEF" node="65R_3l9W4Gs" resolve="button" />
+    <node concept="9VtF4" id="65R_3l9WHUb" role="9VtD$">
+      <property role="TrG5h" value="noize" />
+      <node concept="2rcvpw" id="65R_3l9WHUc" role="9VtF$">
+        <ref role="2rc1cz" node="65R_3l9WHUr" resolve="lighted" />
+        <node concept="9VtFP" id="65R_3l9WHUo" role="2rcvq2">
+          <property role="9VtEn" value="true" />
+          <ref role="9VtEF" node="65R_3l9WHTA" resolve="button" />
         </node>
       </node>
-      <node concept="2rcvpw" id="65R_3l9W4HQ" role="9VtF$">
-        <ref role="2rc1cz" node="65R_3l9W4H3" resolve="off" />
-        <node concept="9VtFP" id="65R_3l9W4HW" role="2rcvq2">
-          <property role="9VtEn" value="false" />
-          <ref role="9VtEF" node="65R_3l9W4Gy" resolve="button2" />
-        </node>
-      </node>
-      <node concept="9VtEY" id="65R_3l9W4HL" role="9VtFA">
+      <node concept="9VtEY" id="65R_3l9WHUm" role="9VtFA">
         <property role="9VtDq" value="true" />
-        <ref role="9VtDo" node="65R_3l9W4GE" resolve="buzzer" />
+        <ref role="9VtDo" node="65R_3l9WHTG" resolve="buzzer" />
       </node>
     </node>
-    <node concept="9U_0M" id="65R_3l9W4Gs" role="9U_vd">
+    <node concept="9VtF4" id="65R_3l9WHUr" role="9VtD$">
+      <property role="TrG5h" value="lighted" />
+      <node concept="2rcvpw" id="65R_3l9WHUs" role="9VtF$">
+        <ref role="2rc1cz" node="65R_3l9WHTT" resolve="off" />
+        <node concept="9VtFP" id="65R_3l9WHUN" role="2rcvq2">
+          <property role="9VtEn" value="true" />
+          <ref role="9VtEF" node="65R_3l9WHTA" resolve="button" />
+        </node>
+      </node>
+      <node concept="9VtEY" id="65R_3l9WHUE" role="9VtFA">
+        <property role="9VtDq" value="false" />
+        <ref role="9VtDo" node="65R_3l9WHTG" resolve="buzzer" />
+      </node>
+      <node concept="9VtEY" id="65R_3l9WHUJ" role="9VtFA">
+        <property role="9VtDq" value="true" />
+        <ref role="9VtDo" node="65R_3l9WHTO" resolve="light" />
+      </node>
+    </node>
+    <node concept="9U_0M" id="65R_3l9WHTA" role="9U_vd">
       <property role="TrG5h" value="button" />
       <property role="9U_0S" value="8" />
     </node>
-    <node concept="9U_0M" id="65R_3l9W4Gy" role="9U_vd">
-      <property role="TrG5h" value="button2" />
-      <property role="9U_0S" value="9" />
-    </node>
-    <node concept="9U_f_" id="65R_3l9W4GE" role="9U_vd">
+    <node concept="9U_f_" id="65R_3l9WHTG" role="9U_vd">
       <property role="TrG5h" value="buzzer" />
       <property role="9U_0S" value="10" />
+    </node>
+    <node concept="9U_f_" id="65R_3l9WHTO" role="9U_vd">
+      <property role="TrG5h" value="light" />
+      <property role="9U_0S" value="11" />
     </node>
   </node>
 </model>
