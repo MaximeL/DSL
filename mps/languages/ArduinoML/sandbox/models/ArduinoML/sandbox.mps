@@ -43,71 +43,111 @@
       </concept>
     </language>
   </registry>
-  <node concept="9U_0O" id="6W0sWHAUyCS">
-    <property role="TrG5h" value="RedButton" />
-    <ref role="9VtDT" node="6k5VhrYdyt5" resolve="off" />
-    <node concept="9VtF4" id="6k5VhrYdyt5" role="9VtD$">
+  <node concept="9U_0O" id="65R_3l9W1Rr">
+    <property role="TrG5h" value="SimpleAlarm" />
+    <ref role="9VtDT" node="65R_3l9W1SA" resolve="off" />
+    <node concept="9VtF4" id="65R_3l9W1SA" role="9VtD$">
       <property role="TrG5h" value="off" />
-      <node concept="2rcvpw" id="6k5VhrYdyt6" role="9VtF$">
-        <ref role="2rc1cz" node="6k5VhrYd$p1" resolve="on" />
-        <node concept="9VtFP" id="2I4T85niuJs" role="2rcvq2">
-          <property role="9VtEn" value="false" />
-          <ref role="9VtEF" node="Ellu7LgpoQ" resolve="button2" />
-        </node>
-        <node concept="9VtFP" id="2I4T85niuJf" role="2rcvq2">
+      <node concept="2rcvpw" id="65R_3l9W1SB" role="9VtF$">
+        <ref role="2rc1cz" node="65R_3l9W1SS" resolve="on" />
+        <node concept="9VtFP" id="65R_3l9W1Tf" role="2rcvq2">
           <property role="9VtEn" value="true" />
-          <ref role="9VtEF" node="6W0sWHAUyD8" resolve="button" />
+          <ref role="9VtEF" node="65R_3l9W1RS" resolve="buttonSA" />
         </node>
       </node>
-      <node concept="2rcvpw" id="2I4T85niuJw" role="9VtF$">
-        <ref role="2rc1cz" node="6k5VhrYdyt5" resolve="off" />
-        <node concept="9VtFP" id="2I4T85niuJB" role="2rcvq2">
-          <property role="9VtEn" value="true" />
-          <ref role="9VtEF" node="6W0sWHAUyD8" resolve="button" />
-        </node>
-      </node>
-      <node concept="9VtEY" id="6k5VhrYd$pq" role="9VtFA">
+      <node concept="9VtEY" id="65R_3l9W2yS" role="9VtFA">
         <property role="9VtDq" value="false" />
-        <ref role="9VtDo" node="6W0sWHAUyCW" resolve="red_led" />
+        <ref role="9VtDo" node="65R_3l9W1Sp" resolve="buzzerSA" />
       </node>
-      <node concept="9VtEY" id="6k5VhrYd$pv" role="9VtFA">
+      <node concept="9VtEY" id="65R_3l9W1SL" role="9VtFA">
         <property role="9VtDq" value="false" />
-        <ref role="9VtDo" node="Ellu7Lgjrb" resolve="buzzer" />
+        <ref role="9VtDo" node="65R_3l9W1Sx" resolve="lightSA" />
       </node>
     </node>
-    <node concept="9VtF4" id="6k5VhrYd$p1" role="9VtD$">
+    <node concept="9VtF4" id="65R_3l9W1SS" role="9VtD$">
       <property role="TrG5h" value="on" />
-      <node concept="2rcvpw" id="6k5VhrYd$p2" role="9VtF$">
-        <ref role="2rc1cz" node="6k5VhrYdyt5" resolve="off" />
-        <node concept="9VtFP" id="6k5VhrYd$pa" role="2rcvq2">
+      <node concept="2rcvpw" id="65R_3l9W1ST" role="9VtF$">
+        <ref role="2rc1cz" node="65R_3l9W1SA" resolve="off" />
+        <node concept="9VtFP" id="65R_3l9W1Tc" role="2rcvq2">
           <property role="9VtEn" value="false" />
-          <ref role="9VtEF" node="6W0sWHAUyD8" resolve="button" />
+          <ref role="9VtEF" node="65R_3l9W1RS" resolve="buttonSA" />
         </node>
       </node>
-      <node concept="9VtEY" id="6k5VhrYd$pz" role="9VtFA">
+      <node concept="9VtEY" id="65R_3l9W1Ti" role="9VtFA">
         <property role="9VtDq" value="true" />
-        <ref role="9VtDo" node="Ellu7Lgjrb" resolve="buzzer" />
+        <ref role="9VtDo" node="65R_3l9W1Sp" resolve="buzzerSA" />
       </node>
-      <node concept="9VtEY" id="6k5VhrYd$pC" role="9VtFA">
+      <node concept="9VtEY" id="65R_3l9W1Tm" role="9VtFA">
         <property role="9VtDq" value="true" />
-        <ref role="9VtDo" node="6W0sWHAUyCW" resolve="red_led" />
+        <ref role="9VtDo" node="65R_3l9W1Sx" resolve="lightSA" />
       </node>
     </node>
-    <node concept="9U_f_" id="6W0sWHAUyCW" role="9U_vd">
-      <property role="TrG5h" value="red_led" />
-      <property role="9U_0S" value="12" />
-    </node>
-    <node concept="9U_0M" id="6W0sWHAUyD8" role="9U_vd">
-      <property role="TrG5h" value="button" />
+    <node concept="9U_0M" id="65R_3l9W1RS" role="9U_vd">
+      <property role="TrG5h" value="buttonSA" />
       <property role="9U_0S" value="8" />
     </node>
-    <node concept="9U_0M" id="Ellu7LgpoQ" role="9U_vd">
-      <property role="TrG5h" value="button2" />
+    <node concept="9U_f_" id="65R_3l9W1Sp" role="9U_vd">
+      <property role="TrG5h" value="buzzerSA" />
+      <property role="9U_0S" value="9" />
+    </node>
+    <node concept="9U_f_" id="65R_3l9W1Sx" role="9U_vd">
+      <property role="TrG5h" value="lightSA" />
       <property role="9U_0S" value="10" />
     </node>
-    <node concept="9U_f_" id="Ellu7Lgjrb" role="9U_vd">
-      <property role="TrG5h" value="buzzer" />
+  </node>
+  <node concept="9U_0O" id="65R_3l9W4FZ">
+    <property role="TrG5h" value="DualCheck" />
+    <ref role="9VtDT" node="65R_3l9W4H3" resolve="off" />
+    <node concept="9VtF4" id="65R_3l9W4H3" role="9VtD$">
+      <property role="TrG5h" value="off" />
+      <node concept="2rcvpw" id="65R_3l9W4H4" role="9VtF$">
+        <ref role="2rc1cz" node="65R_3l9W4HA" resolve="on" />
+        <node concept="9VtFP" id="65R_3l9WpEd" role="2rcvq2">
+          <property role="9VtEn" value="true" />
+          <ref role="9VtEF" node="65R_3l9W4Gy" resolve="button2DC" />
+        </node>
+        <node concept="9VtFP" id="65R_3l9W4Hk" role="2rcvq2">
+          <property role="9VtEn" value="true" />
+          <ref role="9VtEF" node="65R_3l9W4Gs" resolve="button1DC" />
+        </node>
+      </node>
+      <node concept="9VtEY" id="65R_3l9W4Hi" role="9VtFA">
+        <property role="9VtDq" value="false" />
+        <ref role="9VtDo" node="65R_3l9W4GE" resolve="buzzerDC" />
+      </node>
+    </node>
+    <node concept="9VtF4" id="65R_3l9W4HA" role="9VtD$">
+      <property role="TrG5h" value="on" />
+      <node concept="2rcvpw" id="65R_3l9W4HB" role="9VtF$">
+        <ref role="2rc1cz" node="65R_3l9W4H3" resolve="off" />
+        <node concept="9VtFP" id="65R_3l9W4HN" role="2rcvq2">
+          <property role="9VtEn" value="false" />
+          <ref role="9VtEF" node="65R_3l9W4Gs" resolve="button1DC" />
+        </node>
+      </node>
+      <node concept="2rcvpw" id="65R_3l9W4HQ" role="9VtF$">
+        <ref role="2rc1cz" node="65R_3l9W4H3" resolve="off" />
+        <node concept="9VtFP" id="65R_3l9W4HW" role="2rcvq2">
+          <property role="9VtEn" value="false" />
+          <ref role="9VtEF" node="65R_3l9W4Gy" resolve="button2DC" />
+        </node>
+      </node>
+      <node concept="9VtEY" id="65R_3l9W4HL" role="9VtFA">
+        <property role="9VtDq" value="true" />
+        <ref role="9VtDo" node="65R_3l9W4GE" resolve="buzzerDC" />
+      </node>
+    </node>
+    <node concept="9U_0M" id="65R_3l9W4Gs" role="9U_vd">
+      <property role="TrG5h" value="button1DC" />
+      <property role="9U_0S" value="8" />
+    </node>
+    <node concept="9U_0M" id="65R_3l9W4Gy" role="9U_vd">
+      <property role="TrG5h" value="button2DC" />
       <property role="9U_0S" value="9" />
+    </node>
+    <node concept="9U_f_" id="65R_3l9W4GE" role="9U_vd">
+      <property role="TrG5h" value="buzzerDC" />
+      <property role="9U_0S" value="10" />
     </node>
   </node>
 </model>
