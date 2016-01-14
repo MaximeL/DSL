@@ -64,7 +64,6 @@
         <property role="9VtDq" value="false" />
         <ref role="9VtDo" node="65R_3l9WHOT" resolve="light" />
       </node>
-      <node concept="9VtEY" id="65R_3l9WKrN" role="9VtFA" />
     </node>
     <node concept="9VtF4" id="65R_3l9WHQB" role="9VtD$">
       <property role="TrG5h" value="on" />
