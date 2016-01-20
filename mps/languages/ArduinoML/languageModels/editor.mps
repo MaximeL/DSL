@@ -52,7 +52,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="6W0sWHAUyEr">
-    <ref role="1XX52x" to="eejj:6W0sWHAUy0I" resolve="Actuator" />
+    <ref role="1XX52x" to="eejj:6W0sWHAUy0I" resolve="Output" />
     <node concept="3EZMnI" id="6W0sWHAU_16" role="2wV5jI">
       <node concept="3F0ifn" id="6W0sWHAU_1d" role="3EZMnx">
         <property role="3F0ifm" value="actuator" />
@@ -60,8 +60,8 @@
       <node concept="3F0A7n" id="6W0sWHAU_1P" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="3F0ifn" id="6W0sWHAU_1X" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
+      <node concept="3F0ifn" id="VrnJVEpamJ" role="3EZMnx">
+        <property role="3F0ifm" value="plugged in" />
       </node>
       <node concept="3F0A7n" id="6W0sWHAU_27" role="3EZMnx">
         <ref role="1NtTu8" to="eejj:3YAN9gYM8Bk" resolve="plug" />
@@ -70,7 +70,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6W0sWHAU$ZJ">
-    <ref role="1XX52x" to="eejj:6W0sWHAUyfT" resolve="Sensor" />
+    <ref role="1XX52x" to="eejj:6W0sWHAUyfT" resolve="Input" />
     <node concept="3EZMnI" id="6W0sWHAU$ZW" role="2wV5jI">
       <node concept="3F0ifn" id="6W0sWHAU_06" role="3EZMnx">
         <property role="3F0ifm" value="sensor" />
@@ -78,8 +78,8 @@
       <node concept="3F0A7n" id="6W0sWHAU_0e" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="3F0ifn" id="6W0sWHAU_0o" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
+      <node concept="3F0ifn" id="VrnJVEp4B5" role="3EZMnx">
+        <property role="3F0ifm" value="plugged in" />
       </node>
       <node concept="3F0A7n" id="6W0sWHAU_0$" role="3EZMnx">
         <ref role="1NtTu8" to="eejj:3YAN9gYM8Bk" resolve="plug" />
@@ -220,6 +220,78 @@
         <node concept="l2Vlx" id="6k5VhrYdkGE" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="6k5VhrYdkFg" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="VrnJVEplQy">
+    <ref role="1XX52x" to="eejj:3YAN9gYLZ$I" resolve="Lcd" />
+    <node concept="3EZMnI" id="VrnJVEplQ$" role="2wV5jI">
+      <node concept="3F0ifn" id="VrnJVEplQ_" role="3EZMnx">
+        <property role="3F0ifm" value="output" />
+      </node>
+      <node concept="3F0A7n" id="VrnJVEplQA" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="VrnJVEplQB" role="3EZMnx">
+        <property role="3F0ifm" value="plugged in" />
+      </node>
+      <node concept="3F0A7n" id="VrnJVEplQC" role="3EZMnx">
+        <ref role="1NtTu8" to="eejj:3YAN9gYM8Bk" resolve="plug" />
+      </node>
+      <node concept="2iRfu4" id="VrnJVEplQD" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="VrnJVEpHbE">
+    <ref role="1XX52x" to="eejj:VrnJVEpxve" resolve="Button" />
+    <node concept="3EZMnI" id="VrnJVEpHc7" role="2wV5jI">
+      <node concept="3F0ifn" id="VrnJVEpHc8" role="3EZMnx">
+        <property role="3F0ifm" value="input" />
+      </node>
+      <node concept="3F0A7n" id="VrnJVEpHc9" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="VrnJVEpHca" role="3EZMnx">
+        <property role="3F0ifm" value="plugged in" />
+      </node>
+      <node concept="3F0A7n" id="VrnJVEpHcb" role="3EZMnx">
+        <ref role="1NtTu8" to="eejj:3YAN9gYM8Bk" resolve="plug" />
+      </node>
+      <node concept="2iRfu4" id="VrnJVEpHcc" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="VrnJVEpN8I">
+    <ref role="1XX52x" to="eejj:VrnJVEpN7K" resolve="Light" />
+    <node concept="3EZMnI" id="VrnJVEpN9b" role="2wV5jI">
+      <node concept="3F0ifn" id="VrnJVEpN9c" role="3EZMnx">
+        <property role="3F0ifm" value="output" />
+      </node>
+      <node concept="3F0A7n" id="VrnJVEpN9d" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="VrnJVEpN9e" role="3EZMnx">
+        <property role="3F0ifm" value="plugged in" />
+      </node>
+      <node concept="3F0A7n" id="VrnJVEpN9f" role="3EZMnx">
+        <ref role="1NtTu8" to="eejj:3YAN9gYM8Bk" resolve="plug" />
+      </node>
+      <node concept="2iRfu4" id="VrnJVEpN9g" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="VrnJVEpTcV">
+    <ref role="1XX52x" to="eejj:VrnJVEpTc7" resolve="buzzer" />
+    <node concept="3EZMnI" id="VrnJVEpTdo" role="2wV5jI">
+      <node concept="3F0ifn" id="VrnJVEpTdp" role="3EZMnx">
+        <property role="3F0ifm" value="output" />
+      </node>
+      <node concept="3F0A7n" id="VrnJVEpTdq" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="VrnJVEpTdr" role="3EZMnx">
+        <property role="3F0ifm" value="plugged in" />
+      </node>
+      <node concept="3F0A7n" id="VrnJVEpTds" role="3EZMnx">
+        <ref role="1NtTu8" to="eejj:3YAN9gYM8Bk" resolve="plug" />
+      </node>
+      <node concept="2iRfu4" id="VrnJVEpTdt" role="2iSdaV" />
     </node>
   </node>
 </model>
