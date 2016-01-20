@@ -4,6 +4,8 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/ArduinoML/ArduinoML.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ArduinoML/sandbox/ArduinoML.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/QuizzML/QuizzML.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/QuizzML/sandbox/QuizzML.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:aa934804-14f1-47c1-be90-9bbb17649e5d(ArduinoML.typesystem)">
+<model ref="r:8e353078-cbe5-47b1-94aa-f3ad6ee45cd8(QuizzML.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />

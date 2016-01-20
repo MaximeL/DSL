@@ -98,6 +98,9 @@
     <node concept="PrWs8" id="6W0sWHAVqAF" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="3nmFwEXW6kn" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="6W0sWHAVqAM" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="init_state" />
