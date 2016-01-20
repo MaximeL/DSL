@@ -52,13 +52,9 @@
           <ref role="9VtEF" node="65R_3l9WHTA" resolve="button" />
         </node>
       </node>
-      <node concept="9VtEY" id="65R_3l9WHTZ" role="9VtFA">
+      <node concept="9VtEY" id="4XJ1c0ZMT11" role="9VtFA">
         <property role="9VtDq" value="false" />
         <ref role="9VtDo" node="65R_3l9WHTG" resolve="buzzer" />
-      </node>
-      <node concept="9VtEY" id="65R_3l9WHU4" role="9VtFA">
-        <property role="9VtDq" value="false" />
-        <ref role="9VtDo" node="65R_3l9WHTO" resolve="light" />
       </node>
     </node>
     <node concept="9VtF4" id="65R_3l9WHUb" role="9VtD$">
@@ -103,6 +99,26 @@
     </node>
     <node concept="9U_f_" id="65R_3l9WHTO" role="9U_vd">
       <property role="TrG5h" value="light" />
+      <property role="9U_0S" value="11" />
+    </node>
+  </node>
+  <node concept="9U_0O" id="4XJ1c0ZMT1b">
+    <property role="TrG5h" value="test" />
+    <ref role="9VtDT" node="65R_3l9WHTT" resolve="off" />
+    <node concept="9VtF4" id="4XJ1c0ZN2IT" role="9VtD$">
+      <property role="TrG5h" value="coycoyc" />
+      <node concept="2rcvpw" id="4XJ1c0ZN2IU" role="9VtF$">
+        <ref role="2rc1cz" node="4XJ1c0ZN2IT" resolve="coycoyc" />
+        <node concept="9VtFP" id="4XJ1c0ZN2IV" role="2rcvq2" />
+      </node>
+      <node concept="9VtEY" id="4XJ1c0ZNiGa" role="9VtFA">
+        <property role="9VtDq" value="true" />
+        <ref role="9VtDo" node="4XJ1c0ZMT1G" resolve="coucou" />
+      </node>
+      <node concept="9VtEY" id="4XJ1c0ZNp7F" role="9VtFA" />
+    </node>
+    <node concept="9U_f_" id="4XJ1c0ZMT1G" role="9U_vd">
+      <property role="TrG5h" value="coucou" />
       <property role="9U_0S" value="11" />
     </node>
   </node>
