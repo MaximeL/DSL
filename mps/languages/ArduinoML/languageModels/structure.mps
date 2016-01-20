@@ -60,9 +60,9 @@
     <node concept="PrWs8" id="6W0sWHAUxZS" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyi" id="6W0sWHAUyfN" role="1TKVEl">
-      <property role="TrG5h" value="pin" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="1TJgyi" id="3YAN9gYM8Bk" role="1TKVEl">
+      <property role="TrG5h" value="plug" />
+      <ref role="AX2Wp" node="3YAN9gYM8$C" resolve="PLUG" />
     </node>
   </node>
   <node concept="1TIwiD" id="6W0sWHAUy0I">
@@ -186,6 +186,68 @@
       <property role="20kJfa" value="target" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6W0sWHAVq$f" resolve="State" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3YAN9gYLZ$I">
+    <property role="1pbfSe" value="2121188802" />
+    <property role="TrG5h" value="Lcd" />
+    <ref role="1TJDcQ" node="6W0sWHAUy0I" resolve="Actuator" />
+  </node>
+  <node concept="AxPO7" id="3YAN9gYM8$C">
+    <property role="TrG5h" value="PLUG" />
+    <property role="PDuV0" value="true" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="M4N5e" id="3YAN9gYM8$D" role="M5hS2">
+      <property role="1uS6qv" value="1" />
+      <property role="1uS6qo" value="A1" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8$E" role="M5hS2">
+      <property role="1uS6qo" value="A2" />
+      <property role="1uS6qv" value="2" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8$H" role="M5hS2">
+      <property role="1uS6qo" value="A3" />
+      <property role="1uS6qv" value="3" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8$L" role="M5hS2">
+      <property role="1uS6qo" value="A4" />
+      <property role="1uS6qv" value="4" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8$Q" role="M5hS2">
+      <property role="1uS6qo" value="A5" />
+      <property role="1uS6qv" value="5" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8_k" role="M5hS2">
+      <property role="1uS6qv" value="8" />
+      <property role="1uS6qo" value="D8" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8_r" role="M5hS2">
+      <property role="1uS6qo" value="D9" />
+      <property role="1uS6qv" value="9" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8_z" role="M5hS2">
+      <property role="1uS6qo" value="D10" />
+      <property role="1uS6qv" value="10" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8_G" role="M5hS2">
+      <property role="1uS6qo" value="D11" />
+      <property role="1uS6qv" value="11" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8_Q" role="M5hS2">
+      <property role="1uS6qo" value="D12" />
+      <property role="1uS6qv" value="12" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8A1" role="M5hS2">
+      <property role="1uS6qv" value="13" />
+      <property role="1uS6qo" value="BUS1" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8Ad" role="M5hS2">
+      <property role="1uS6qv" value="14" />
+      <property role="1uS6qo" value="BUS2" />
+    </node>
+    <node concept="M4N5e" id="3YAN9gYM8Aq" role="M5hS2">
+      <property role="1uS6qv" value="15" />
+      <property role="1uS6qo" value="BUS3" />
     </node>
   </node>
 </model>

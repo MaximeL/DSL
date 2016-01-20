@@ -8,7 +8,7 @@
   <registry>
     <language id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML">
       <concept id="7998520255652132075" name="ArduinoML.structure.Brick" flags="ng" index="9Ugsw">
-        <property id="7998520255652176883" name="pin" index="9U_0S" />
+        <property id="4586578207603984852" name="plug" index="1r$l0" />
       </concept>
       <concept id="7998520255652176889" name="ArduinoML.structure.Sensor" flags="ng" index="9U_0M" />
       <concept id="7998520255652176895" name="ArduinoML.structure.App" flags="ng" index="9U_0O">
@@ -45,51 +45,51 @@
     <ref role="9VtDT" node="65R_3l9WB$8" resolve="off" />
     <node concept="9VtF4" id="65R_3l9WB$8" role="9VtD$">
       <property role="TrG5h" value="off" />
-      <node concept="2rcvpw" id="65R_3l9WB$9" role="9VtF$">
-        <ref role="2rc1cz" node="65R_3l9WB$q" resolve="on" />
-        <node concept="9VtFP" id="65R_3l9WB$n" role="2rcvq2">
+      <node concept="2rcvpw" id="3YAN9gYN8x5" role="9VtF$">
+        <ref role="2rc1cz" node="3YAN9gYN8xW" resolve="on" />
+        <node concept="9VtFP" id="3YAN9gYN8x9" role="2rcvq2">
           <property role="9VtEn" value="true" />
-          <ref role="9VtEF" node="65R_3l9WBzP" resolve="button" />
+          <ref role="9VtEF" node="3YAN9gYN8wj" resolve="button" />
         </node>
       </node>
       <node concept="9VtEY" id="65R_3l9WB$e" role="9VtFA">
         <property role="9VtDq" value="false" />
-        <ref role="9VtDo" node="65R_3l9WBzV" resolve="buzzer" />
+        <ref role="9VtDo" node="3YAN9gYN8wo" resolve="buzzer" />
       </node>
       <node concept="9VtEY" id="65R_3l9WB$j" role="9VtFA">
         <property role="9VtDq" value="false" />
-        <ref role="9VtDo" node="65R_3l9WB$3" resolve="light" />
+        <ref role="9VtDo" node="3YAN9gYN8ww" resolve="light" />
       </node>
     </node>
-    <node concept="9VtF4" id="65R_3l9WB$q" role="9VtD$">
+    <node concept="9VtF4" id="3YAN9gYN8xW" role="9VtD$">
       <property role="TrG5h" value="on" />
-      <node concept="2rcvpw" id="65R_3l9WB$r" role="9VtF$">
+      <node concept="2rcvpw" id="3YAN9gYN8xX" role="9VtF$">
         <ref role="2rc1cz" node="65R_3l9WB$8" resolve="off" />
-        <node concept="9VtFP" id="65R_3l9WB$I" role="2rcvq2">
+        <node concept="9VtFP" id="3YAN9gYN8yo" role="2rcvq2">
           <property role="9VtEn" value="false" />
-          <ref role="9VtEF" node="65R_3l9WBzP" resolve="button" />
+          <ref role="9VtEF" node="3YAN9gYN8wj" resolve="button" />
         </node>
       </node>
-      <node concept="9VtEY" id="65R_3l9WB$_" role="9VtFA">
+      <node concept="9VtEY" id="3YAN9gYN8y9" role="9VtFA">
         <property role="9VtDq" value="true" />
-        <ref role="9VtDo" node="65R_3l9WBzV" resolve="buzzer" />
+        <ref role="9VtDo" node="3YAN9gYN8wo" resolve="buzzer" />
       </node>
-      <node concept="9VtEY" id="65R_3l9WB$E" role="9VtFA">
+      <node concept="9VtEY" id="3YAN9gYN8ye" role="9VtFA">
         <property role="9VtDq" value="true" />
-        <ref role="9VtDo" node="65R_3l9WB$3" resolve="light" />
+        <ref role="9VtDo" node="3YAN9gYN8ww" resolve="light" />
       </node>
     </node>
-    <node concept="9U_0M" id="65R_3l9WBzP" role="9U_vd">
+    <node concept="9U_0M" id="3YAN9gYN8wj" role="9U_vd">
       <property role="TrG5h" value="button" />
-      <property role="9U_0S" value="8" />
+      <property role="1r$l0" value="8" />
     </node>
-    <node concept="9U_f_" id="65R_3l9WBzV" role="9U_vd">
+    <node concept="9U_f_" id="3YAN9gYN8wo" role="9U_vd">
       <property role="TrG5h" value="buzzer" />
-      <property role="9U_0S" value="10" />
+      <property role="1r$l0" value="10" />
     </node>
-    <node concept="9U_f_" id="65R_3l9WB$3" role="9U_vd">
+    <node concept="9U_f_" id="3YAN9gYN8ww" role="9U_vd">
       <property role="TrG5h" value="light" />
-      <property role="9U_0S" value="11" />
+      <property role="1r$l0" value="11" />
     </node>
   </node>
 </model>
