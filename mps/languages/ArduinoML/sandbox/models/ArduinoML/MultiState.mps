@@ -56,6 +56,10 @@
         <property role="9VtDq" value="false" />
         <ref role="9VtDo" node="65R_3l9WHTG" resolve="buzzer" />
       </node>
+      <node concept="9VtEY" id="S8$fyROn5w" role="9VtFA">
+        <property role="9VtDq" value="true" />
+        <ref role="9VtDo" node="65R_3l9WHTG" resolve="buzzer" />
+      </node>
     </node>
     <node concept="9VtF4" id="65R_3l9WHUb" role="9VtD$">
       <property role="TrG5h" value="noize" />
