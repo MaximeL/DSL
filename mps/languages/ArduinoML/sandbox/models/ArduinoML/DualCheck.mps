@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0e652d73-6289-4ce3-b138-d71bc31f75f2(ArduinoML.Dualcheck)">
+<model ref="r:0e652d73-6289-4ce3-b138-d71bc31f75f2(ArduinoML.DualCheck)">
   <persistence version="9" />
   <languages>
     <use id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
   </languages>
   <imports>
-    <import index="m1dl" ref="r:0e652d73-6289-4ce3-b138-d71bc31f75f2(ArduinoML.Dualcheck)" />
+    <import index="m1dl" ref="r:0e652d73-6289-4ce3-b138-d71bc31f75f2(ArduinoML.DualCheck)" />
   </imports>
   <registry>
     <language id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML">
@@ -46,6 +46,18 @@
   <node concept="9U_0O" id="65R_3l9W4FZ">
     <property role="TrG5h" value="DualCheck" />
     <ref role="9VtDT" node="4XJ1c0ZMNIr" resolve="off" />
+    <node concept="9U_0M" id="4XJ1c0ZMNI9" role="9U_vd">
+      <property role="TrG5h" value="button1" />
+      <property role="9U_0S" value="8" />
+    </node>
+    <node concept="9U_0M" id="4XJ1c0ZMNIe" role="9U_vd">
+      <property role="TrG5h" value="button2" />
+      <property role="9U_0S" value="9" />
+    </node>
+    <node concept="9U_f_" id="4XJ1c0ZMNIm" role="9U_vd">
+      <property role="TrG5h" value="buzzer" />
+      <property role="9U_0S" value="10" />
+    </node>
     <node concept="9VtF4" id="4XJ1c0ZMNIr" role="9VtD$">
       <property role="TrG5h" value="off" />
       <node concept="2rcvpw" id="4XJ1c0ZMNIs" role="9VtF$">
@@ -84,18 +96,6 @@
         <property role="9VtDq" value="true" />
         <ref role="9VtDo" node="4XJ1c0ZMNIm" resolve="buzzer" />
       </node>
-    </node>
-    <node concept="9U_0M" id="4XJ1c0ZMNI9" role="9U_vd">
-      <property role="TrG5h" value="button1" />
-      <property role="9U_0S" value="8" />
-    </node>
-    <node concept="9U_0M" id="4XJ1c0ZMNIe" role="9U_vd">
-      <property role="TrG5h" value="button2" />
-      <property role="9U_0S" value="9" />
-    </node>
-    <node concept="9U_f_" id="4XJ1c0ZMNIm" role="9U_vd">
-      <property role="TrG5h" value="buzzer" />
-      <property role="9U_0S" value="10" />
     </node>
   </node>
 </model>
