@@ -13,6 +13,9 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
+    <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
+    <import index="genb" ref="r:142fc2e9-fc09-4c4f-92d7-6ce0e3f66b61(jetbrains.mps.lang.scopes.structure)" />
+    <import index="njs7" ref="r:c2d05fc3-fe25-4093-95ce-8e3356e61084(jetbrains.mps.lang.scopes.typesystem)" />
     <import index="eejj" ref="r:48503fd5-e4a6-43f7-a92c-dbfb32c080c6(ArduinoML.structure)" implicit="true" />
   </imports>
   <registry>
@@ -96,12 +99,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="13h7C7" id="S8$fyROnc9">
-    <ref role="13h7C2" to="eejj:6W0sWHAVq_P" resolve="Action" />
-    <node concept="13hLZK" id="S8$fyROnca" role="13h7CW">
-      <node concept="3clFbS" id="S8$fyROncb" role="2VODD2" />
-    </node>
-  </node>
   <node concept="13h7C7" id="S8$fyROncJ">
     <ref role="13h7C2" to="eejj:6W0sWHAUyfZ" resolve="App" />
     <node concept="13hLZK" id="S8$fyROncK" role="13h7CW">
@@ -116,14 +113,14 @@
       <node concept="3clFbS" id="S8$fyROndM" role="3clF47">
         <node concept="3clFbJ" id="S8$fyROqhj" role="3cqZAp">
           <node concept="3clFbS" id="S8$fyROqhk" role="3clFbx">
-            <node concept="3cpWs6" id="S8$fyROrAl" role="3cqZAp">
-              <node concept="2YIFZM" id="S8$fyROrU4" role="3cqZAk">
+            <node concept="3cpWs6" id="S8$fyRPpZU" role="3cqZAp">
+              <node concept="2YIFZM" id="S8$fyRPqa5" role="3cqZAk">
                 <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
                 <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
-                <node concept="13iPFW" id="S8$fyROrV6" role="37wK5m" />
-                <node concept="359W_D" id="S8$fyROrXU" role="37wK5m">
+                <node concept="13iPFW" id="S8$fyRPqbE" role="37wK5m" />
+                <node concept="359W_D" id="S8$fyRPqfk" role="37wK5m">
                   <ref role="359W_E" to="eejj:6W0sWHAUyfZ" resolve="App" />
-                  <ref role="359W_F" to="eejj:6W0sWHAUyg6" />
+                  <ref role="359W_F" to="eejj:6W0sWHAVqAJ" />
                 </node>
               </node>
             </node>
@@ -135,6 +132,31 @@
             <node concept="2Zo12i" id="S8$fyROrq2" role="2OqNvi">
               <node concept="chp4Y" id="S8$fyROr$G" role="2Zo12j">
                 <ref role="cht4Q" to="eejj:6W0sWHAVq$f" resolve="State" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="S8$fyROsWl" role="3cqZAp">
+          <node concept="3clFbS" id="S8$fyROsWn" role="3clFbx">
+            <node concept="3cpWs6" id="S8$fyROt83" role="3cqZAp">
+              <node concept="2YIFZM" id="S8$fyROthK" role="3cqZAk">
+                <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
+                <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
+                <node concept="13iPFW" id="S8$fyROtjl" role="37wK5m" />
+                <node concept="359W_D" id="S8$fyROtnG" role="37wK5m">
+                  <ref role="359W_E" to="eejj:6W0sWHAUyfZ" resolve="App" />
+                  <ref role="359W_F" to="eejj:6W0sWHAUyg6" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="S8$fyROt18" role="3clFbw">
+            <node concept="37vLTw" id="S8$fyROsY8" role="2Oq$k0">
+              <ref role="3cqZAo" node="S8$fyROndN" resolve="kind" />
+            </node>
+            <node concept="2Zo12i" id="S8$fyROt5H" role="2OqNvi">
+              <node concept="chp4Y" id="S8$fyROt6P" role="2Zo12j">
+                <ref role="cht4Q" to="eejj:6W0sWHAUnjF" resolve="Brick" />
               </node>
             </node>
           </node>
@@ -154,6 +176,18 @@
       <node concept="3uibUv" id="S8$fyROndR" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="S8$fyRPtUr">
+    <ref role="13h7C2" to="eejj:6W0sWHAVq_P" resolve="Action" />
+    <node concept="13hLZK" id="S8$fyRPtUs" role="13h7CW">
+      <node concept="3clFbS" id="S8$fyRPtUt" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="S8$fyRPtUT">
+    <ref role="13h7C2" to="eejj:6W0sWHAVq$f" resolve="State" />
+    <node concept="13hLZK" id="S8$fyRPtUU" role="13h7CW">
+      <node concept="3clFbS" id="S8$fyRPtUV" role="2VODD2" />
     </node>
   </node>
 </model>
