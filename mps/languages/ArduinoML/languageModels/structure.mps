@@ -2,7 +2,7 @@
 <model ref="r:48503fd5-e4a6-43f7-a92c-dbfb32c080c6(ArduinoML.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -66,13 +66,17 @@
     </node>
   </node>
   <node concept="1TIwiD" id="6W0sWHAUy0I">
-    <property role="TrG5h" value="Actuator" />
+    <property role="TrG5h" value="Output" />
     <property role="1pbfSe" value="706046983" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="6W0sWHAUnjF" resolve="Brick" />
   </node>
   <node concept="1TIwiD" id="6W0sWHAUyfT">
-    <property role="TrG5h" value="Sensor" />
+    <property role="TrG5h" value="Input" />
     <property role="1pbfSe" value="706046012" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="6W0sWHAUnjF" resolve="Brick" />
   </node>
   <node concept="1TIwiD" id="6W0sWHAUyfZ">
@@ -127,7 +131,7 @@
     <node concept="1TJgyj" id="6W0sWHAVq$J" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="transitions" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6k5VhrYd1HQ" resolve="TransitionGroup" />
     </node>
   </node>
@@ -143,7 +147,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="sensor" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6W0sWHAUyfT" resolve="Sensor" />
+      <ref role="20lvS9" node="6W0sWHAUyfT" resolve="Input" />
     </node>
   </node>
   <node concept="1TIwiD" id="6W0sWHAVq_P">
@@ -158,7 +162,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="actuator" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6W0sWHAUy0I" resolve="Actuator" />
+      <ref role="20lvS9" node="6W0sWHAUy0I" resolve="Output" />
     </node>
   </node>
   <node concept="AxPO7" id="6W0sWHAVqBc">
@@ -194,7 +198,11 @@
   <node concept="1TIwiD" id="3YAN9gYLZ$I">
     <property role="1pbfSe" value="2121188802" />
     <property role="TrG5h" value="Lcd" />
-    <ref role="1TJDcQ" node="6W0sWHAUy0I" resolve="Actuator" />
+    <ref role="1TJDcQ" node="6W0sWHAUy0I" resolve="Output" />
+    <node concept="1TJgyi" id="VrnJVEprET" role="1TKVEl">
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="AxPO7" id="3YAN9gYM8$C">
     <property role="TrG5h" value="PLUG" />
@@ -252,6 +260,21 @@
       <property role="1uS6qv" value="15" />
       <property role="1uS6qo" value="BUS3" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="VrnJVEpTc7">
+    <property role="1pbfSe" value="113053179" />
+    <property role="TrG5h" value="buzzer" />
+    <ref role="1TJDcQ" node="6W0sWHAUy0I" resolve="Output" />
+  </node>
+  <node concept="1TIwiD" id="VrnJVEpxve">
+    <property role="1pbfSe" value="113150260" />
+    <property role="TrG5h" value="Button" />
+    <ref role="1TJDcQ" node="6W0sWHAUyfT" resolve="Input" />
+  </node>
+  <node concept="1TIwiD" id="VrnJVEpN7K">
+    <property role="1pbfSe" value="113078034" />
+    <property role="TrG5h" value="Light" />
+    <ref role="1TJDcQ" node="6W0sWHAUy0I" resolve="Output" />
   </node>
 </model>
 
