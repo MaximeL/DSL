@@ -282,7 +282,35 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6W0sWHAV7$i" role="3cqZAp" />
+        <node concept="3clFbH" id="6HVxS_XoQTP" role="3cqZAp" />
+        <node concept="3clFbF" id="6HVxS_XoRUg" role="3cqZAp">
+          <node concept="2OqwBi" id="6HVxS_XoSg2" role="3clFbG">
+            <node concept="10M0yZ" id="6HVxS_XoS6C" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6HVxS_XoSsy" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="6HVxS_XoSt3" role="37wK5m">
+                <property role="Xl_RC" value="String text[]  = {\&quot;hello world salut tous le monde j'espere que ca va bien ou bien ok on y va\&quot;,\&quot;dijfidhfisdsdsdsd sdsdsdsd sdsd fdfqfqsf fq sf f dff\&quot;};" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6HVxS_XoSz_" role="3cqZAp">
+          <node concept="2OqwBi" id="6HVxS_XoSRO" role="3clFbG">
+            <node concept="10M0yZ" id="6HVxS_XoSz$" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6HVxS_XoT4D" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="6HVxS_XoT5O" role="37wK5m">
+                <property role="Xl_RC" value="int nb = 0;\nint textLength;\nint x;" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7aBJqsZDwoX" role="3cqZAp">
           <node concept="2OqwBi" id="7aBJqsZDyrV" role="3clFbG">
             <node concept="10M0yZ" id="7aBJqsZDwI3" role="2Oq$k0">
@@ -307,6 +335,20 @@
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="6W0sWHAV7Y_" role="37wK5m">
                 <property role="Xl_RC" value="void setup() {" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6HVxS_Xp68u" role="3cqZAp">
+          <node concept="2OqwBi" id="6HVxS_Xp6wG" role="3clFbG">
+            <node concept="10M0yZ" id="6HVxS_Xp6iQ" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6HVxS_Xp6IA" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="6HVxS_Xp6J7" role="37wK5m">
+                <property role="Xl_RC" value="\tx = 0;" />
               </node>
             </node>
           </node>
@@ -377,7 +419,7 @@
             <node concept="liA8E" id="6W0sWHAVUKr" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="6W0sWHAVUN7" role="37wK5m">
-                <property role="Xl_RC" value="long time = 0; long debounce = 200; \n" />
+                <property role="Xl_RC" value="long timeClick = 0; long timeDisplay= 0; long debounceClick = 100; long debounceDisplay = 1000;\n" />
               </node>
             </node>
           </node>
@@ -770,7 +812,7 @@
             <node concept="liA8E" id="6W0sWHAWJlB" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="6W0sWHAWJmb" role="37wK5m">
-                <property role="Xl_RC" value="\tboolean guard = millis() - time &gt; debounce;" />
+                <property role="Xl_RC" value="\tboolean guard = millis() - timeClick &gt; debounceClick;" />
               </node>
             </node>
           </node>
@@ -954,7 +996,7 @@
                 </node>
                 <node concept="3cpWs3" id="2ZfZHUWsQqs" role="3uHU7B">
                   <node concept="Xl_RD" id="2ZfZHUWsQ9J" role="3uHU7B">
-                    <property role="Xl_RC" value="\ttime = millis(); state_" />
+                    <property role="Xl_RC" value="\ttimeClick = millis(); state_" />
                   </node>
                   <node concept="Xl_RD" id="2ZfZHUWsQr$" role="3uHU7w">
                     <property role="Xl_RC" value="STATE" />
@@ -1236,7 +1278,7 @@
                 </node>
                 <node concept="3cpWs3" id="3YAN9gYMNqc" role="3uHU7B">
                   <node concept="Xl_RD" id="3YAN9gYMNqd" role="3uHU7B">
-                    <property role="Xl_RC" value="    LiquidCrystal lcd(" />
+                    <property role="Xl_RC" value="\tLiquidCrystal lcd(" />
                   </node>
                   <node concept="Xl_RD" id="3YAN9gYMRYX" role="3uHU7w">
                     <property role="Xl_RC" value="0" />
@@ -1301,6 +1343,34 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6HVxS_Xp6VS" role="3cqZAp">
+          <node concept="2OqwBi" id="6HVxS_Xp72b" role="3clFbG">
+            <node concept="10M0yZ" id="6HVxS_Xp6VR" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6HVxS_Xp77e" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="6HVxS_Xp77x" role="37wK5m">
+                <property role="Xl_RC" value="\tlcd.begin(16, 2); //32 caractères" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6HVxS_Xp8J$" role="3cqZAp">
+          <node concept="2OqwBi" id="6HVxS_Xp8J_" role="3clFbG">
+            <node concept="10M0yZ" id="6HVxS_Xp8JA" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="6HVxS_Xp8JB" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="6HVxS_Xp8JC" role="37wK5m">
+                <property role="Xl_RC" value="\tlcd.clear();" />
               </node>
             </node>
           </node>
