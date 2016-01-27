@@ -409,7 +409,22 @@
             <node concept="liA8E" id="6W0sWHAVUKr" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="6W0sWHAVUN7" role="37wK5m">
-                <property role="Xl_RC" value="long timeClick = 0; long timeDisplay= 0; long debounceClick = 100; long debounceDisplay = 1000;\n" />
+                <property role="Xl_RC" value="long timeClick = 0; long timeDisplay= 0; long debounceClick = 100;\n" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7OODKZbmdM" role="3cqZAp" />
+        <node concept="3clFbF" id="7OODKZbmvF" role="3cqZAp">
+          <node concept="2OqwBi" id="7OODKZbmNh" role="3clFbG">
+            <node concept="10M0yZ" id="7OODKZbmCD" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="7OODKZbmWL" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="7OODKZbmXi" role="37wK5m">
+                <property role="Xl_RC" value="void state_displayQuestion() {\nint lines;\nboolean guardClick = millis() - timeClick &gt; debounceClick;\nboolean guardDisplay = millis() - timeDisplay &gt; debounceDisplay;\ntextLength = text[nb].length();\nif(textLength &lt; 32){ lines = 1; }\nelse { lines = ( textLength - 1 ) /32 + 2; }\nif(digitalRead(8) == HIGH &amp;&amp; guardClick) { nb = (nb + 1) % (sizeof(text) / sizeof(String)); x = 0; } \nif(digitalRead(8) == LOW &amp;&amp; guardClick) { timeClick = millis(); }\nif(x &lt; lines &amp;&amp; guardDisplay){\n\tlcd.clear(); lcd.setCursor(0,0);\n\tString subText1 = text[nb].substring(x * 16, (x * 16) + 16);\n\tlcd.print(subText1); lcd.setCursor(0,1);\n\tString subText2 = text[nb].substring((x+1) * 16, ((x+1) * 16) + 16);\n\tlcd.print(subText2);\n\tx++; timeDisplay = millis();\n} else if(x &gt;= lines &amp;&amp; guardDisplay){ x=0; }\n\tboolean guard = millis() - timeClick &gt; debounceClick;\n\tstate_displayQuestion();\n}\nvoid loop() { state_displayQuestion(); } // Entering init state\nAdd Comment Collapse" />
               </node>
             </node>
           </node>
