@@ -14,6 +14,7 @@
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
         <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <reference id="1083241965437" name="defaultMember" index="Qgau1" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
       <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
@@ -121,6 +122,10 @@
     <node concept="1TJgyi" id="7OODKZaR8V" role="1TKVEl">
       <property role="TrG5h" value="plug" />
       <ref role="AX2Wp" node="3YAN9gYM8$C" resolve="PLUG" />
+    </node>
+    <node concept="1TJgyi" id="7OODKZb4ZT" role="1TKVEl">
+      <property role="TrG5h" value="textSpeed" />
+      <ref role="AX2Wp" node="7OODKZb4ZY" resolve="TEXTSPEED" />
     </node>
   </node>
   <node concept="AxPO7" id="3YAN9gYM8$C">
@@ -231,6 +236,23 @@
     <node concept="M4N5e" id="5CQxuj_Esp$" role="M5hS2">
       <property role="1uS6qv" value="false" />
       <property role="1uS6qo" value="low" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="7OODKZb4ZY">
+    <property role="TrG5h" value="TEXTSPEED" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <ref role="Qgau1" node="7OODKZb50v" />
+    <node concept="M4N5e" id="7OODKZb4ZZ" role="M5hS2">
+      <property role="1uS6qv" value="750" />
+      <property role="1uS6qo" value="FAST" />
+    </node>
+    <node concept="M4N5e" id="7OODKZb50v" role="M5hS2">
+      <property role="1uS6qo" value="NORMAL" />
+      <property role="1uS6qv" value="1200" />
+    </node>
+    <node concept="M4N5e" id="7OODKZb50y" role="M5hS2">
+      <property role="1uS6qo" value="SLOW" />
+      <property role="1uS6qv" value="2000" />
     </node>
   </node>
 </model>

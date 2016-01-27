@@ -81,17 +81,20 @@
   <node concept="24kQdi" id="VrnJVEplQy">
     <ref role="1XX52x" to="eejj:3YAN9gYLZ$I" resolve="Lcd" />
     <node concept="3EZMnI" id="VrnJVEplQ$" role="2wV5jI">
-      <node concept="3F0ifn" id="VrnJVEplQ_" role="3EZMnx">
-        <property role="3F0ifm" value="output" />
-      </node>
       <node concept="3F0A7n" id="VrnJVEplQA" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1NtTu8" to="eejj:7OODKZaR8S" resolve="name" />
       </node>
       <node concept="3F0ifn" id="VrnJVEplQB" role="3EZMnx">
         <property role="3F0ifm" value="plugged in" />
       </node>
       <node concept="3F0A7n" id="VrnJVEplQC" role="3EZMnx">
-        <ref role="1NtTu8" to="eejj:3YAN9gYM8Bk" resolve="plug" />
+        <ref role="1NtTu8" to="eejj:7OODKZaR8V" resolve="plug" />
+      </node>
+      <node concept="3F0ifn" id="7OODKZb517" role="3EZMnx">
+        <property role="3F0ifm" value="with text speed" />
+      </node>
+      <node concept="3F0A7n" id="7OODKZb51l" role="3EZMnx">
+        <ref role="1NtTu8" to="eejj:7OODKZb4ZT" resolve="textSpeed" />
       </node>
       <node concept="2iRfu4" id="VrnJVEplQD" role="2iSdaV" />
     </node>
