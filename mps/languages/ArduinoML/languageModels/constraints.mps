@@ -25,38 +25,11 @@
       </concept>
     </language>
   </registry>
-  <node concept="1M2fIO" id="65R_3l9WHLR">
-    <ref role="1M2myG" to="eejj:6W0sWHAVq_P" resolve="Action" />
-    <node concept="1N5Pfh" id="65R_3l9WHMj" role="1Mr941">
-      <ref role="1N5Vy1" to="eejj:6W0sWHAVqAj" />
-      <node concept="1dDu$B" id="S8$fyROsAS" role="1N6uqs">
-        <ref role="1dDu$A" to="eejj:6W0sWHAUy0I" resolve="Actuator" />
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="4XJ1c0ZNcj3">
     <ref role="1M2myG" to="eejj:6W0sWHAUyfZ" resolve="App" />
     <node concept="1N5Pfh" id="4XJ1c0ZNcjU" role="1Mr941">
       <ref role="1N5Vy1" to="eejj:6W0sWHAVqAM" />
       <node concept="1dDu$B" id="S8$fyROsFG" role="1N6uqs">
-        <ref role="1dDu$A" to="eejj:6W0sWHAVq$f" resolve="State" />
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="4XJ1c0ZN7qb">
-    <ref role="1M2myG" to="eejj:6W0sWHAVq$Y" resolve="Transition" />
-    <node concept="1N5Pfh" id="4XJ1c0ZN7qB" role="1Mr941">
-      <ref role="1N5Vy1" to="eejj:6W0sWHAVq_w" />
-      <node concept="1dDu$B" id="S8$fyROsRh" role="1N6uqs">
-        <ref role="1dDu$A" to="eejj:6W0sWHAUyfT" resolve="Sensor" />
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="4XJ1c0ZN12Z">
-    <ref role="1M2myG" to="eejj:6k5VhrYd1HQ" resolve="TransitionGroup" />
-    <node concept="1N5Pfh" id="4XJ1c0ZN13r" role="1Mr941">
-      <ref role="1N5Vy1" to="eejj:6k5VhrYdvSP" />
-      <node concept="1dDu$B" id="S8$fyROsKS" role="1N6uqs">
         <ref role="1dDu$A" to="eejj:6W0sWHAVq$f" resolve="State" />
       </node>
     </node>

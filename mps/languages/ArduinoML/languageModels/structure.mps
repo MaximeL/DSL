@@ -84,18 +84,6 @@
     <property role="19KtqR" value="true" />
     <property role="1pbfSe" value="706046006" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6W0sWHAUyg6" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="bricks" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="6W0sWHAUnjF" resolve="Brick" />
-    </node>
-    <node concept="1TJgyj" id="6W0sWHAVqAJ" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="states" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6W0sWHAVq$f" resolve="State" />
-    </node>
     <node concept="PrWs8" id="6W0sWHAU_VN" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
@@ -105,94 +93,17 @@
     <node concept="PrWs8" id="3nmFwEXW6kn" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="1TJgyj" id="6W0sWHAVqAM" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="init_state" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6W0sWHAVq$f" resolve="State" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6W0sWHAVq$f">
-    <property role="TrG5h" value="State" />
-    <property role="1pbfSe" value="705815334" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6W0sWHAVq$F" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="S8$fyRPtVv" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="1TJgyj" id="6W0sWHAVq$H" role="1TKVEi">
+    <node concept="1TJgyj" id="5CQxuj_Esku" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="actions" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6W0sWHAVq_P" resolve="Action" />
+      <property role="20kJfa" value="Buttons" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5CQxuj_EsjR" resolve="Buttons" />
     </node>
-    <node concept="1TJgyj" id="6W0sWHAVq$J" role="1TKVEi">
+    <node concept="1TJgyj" id="5CQxuj_Esk$" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="transitions" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6k5VhrYd1HQ" resolve="TransitionGroup" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6W0sWHAVq$Y">
-    <property role="TrG5h" value="Transition" />
-    <property role="1pbfSe" value="705815287" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6W0sWHAVq_s" role="1TKVEl">
-      <property role="TrG5h" value="status" />
-      <ref role="AX2Wp" node="6W0sWHAVqBc" resolve="STATUS" />
-    </node>
-    <node concept="1TJgyj" id="6W0sWHAVq_w" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="sensor" />
+      <property role="20kJfa" value="Lcd" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6W0sWHAUyfT" resolve="Input" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6W0sWHAVq_P">
-    <property role="TrG5h" value="Action" />
-    <property role="1pbfSe" value="705815232" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6W0sWHAVqAh" role="1TKVEl">
-      <property role="TrG5h" value="status" />
-      <ref role="AX2Wp" node="6W0sWHAVqBc" resolve="STATUS" />
-    </node>
-    <node concept="1TJgyj" id="6W0sWHAVqAj" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="actuator" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6W0sWHAUy0I" resolve="Output" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="6W0sWHAVqBc">
-    <property role="TrG5h" value="STATUS" />
-    <property role="PDuV0" value="true" />
-    <ref role="M4eZT" to="tpck:fKAQMTB" resolve="boolean" />
-    <node concept="M4N5e" id="6W0sWHAVqBd" role="M5hS2">
-      <property role="1uS6qv" value="true" />
-      <property role="1uS6qo" value="high" />
-    </node>
-    <node concept="M4N5e" id="6W0sWHAVqBD" role="M5hS2">
-      <property role="1uS6qv" value="false" />
-      <property role="1uS6qo" value="low" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6k5VhrYd1HQ">
-    <property role="1pbfSe" value="1664747660" />
-    <property role="TrG5h" value="TransitionGroup" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6k5VhrYd1Ik" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="transitions" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="6W0sWHAVq$Y" resolve="Transition" />
-    </node>
-    <node concept="1TJgyj" id="6k5VhrYdvSP" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="target" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6W0sWHAVq$f" resolve="State" />
+      <ref role="20lvS9" node="3YAN9gYLZ$I" resolve="Lcd" />
     </node>
   </node>
   <node concept="1TIwiD" id="3YAN9gYLZ$I">
@@ -275,6 +186,36 @@
     <property role="1pbfSe" value="113078034" />
     <property role="TrG5h" value="Light" />
     <ref role="1TJDcQ" node="6W0sWHAUy0I" resolve="Output" />
+  </node>
+  <node concept="1TIwiD" id="5CQxuj_EsjR">
+    <property role="1pbfSe" value="1071663835" />
+    <property role="TrG5h" value="Buttons" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5CQxuj_Eskj" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Yes" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="VrnJVEpxve" resolve="Button" />
+    </node>
+    <node concept="1TJgyj" id="5CQxuj_Eskl" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="No" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="VrnJVEpxve" resolve="Button" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="5CQxuj_Esp7">
+    <property role="TrG5h" value="STATUS" />
+    <property role="PDuV0" value="true" />
+    <ref role="M4eZT" to="tpck:fKAQMTB" resolve="boolean" />
+    <node concept="M4N5e" id="5CQxuj_Esp8" role="M5hS2">
+      <property role="1uS6qv" value="true" />
+      <property role="1uS6qo" value="high" />
+    </node>
+    <node concept="M4N5e" id="5CQxuj_Esp$" role="M5hS2">
+      <property role="1uS6qv" value="false" />
+      <property role="1uS6qo" value="low" />
+    </node>
   </node>
 </model>
 

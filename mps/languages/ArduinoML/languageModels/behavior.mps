@@ -178,17 +178,5 @@
       </node>
     </node>
   </node>
-  <node concept="13h7C7" id="S8$fyRPtUr">
-    <ref role="13h7C2" to="eejj:6W0sWHAVq_P" resolve="Action" />
-    <node concept="13hLZK" id="S8$fyRPtUs" role="13h7CW">
-      <node concept="3clFbS" id="S8$fyRPtUt" role="2VODD2" />
-    </node>
-  </node>
-  <node concept="13h7C7" id="S8$fyRPtUT">
-    <ref role="13h7C2" to="eejj:6W0sWHAVq$f" resolve="State" />
-    <node concept="13hLZK" id="S8$fyRPtUU" role="13h7CW">
-      <node concept="3clFbS" id="S8$fyRPtUV" role="2VODD2" />
-    </node>
-  </node>
 </model>
 
