@@ -567,7 +567,7 @@
             </node>
           </node>
           <node concept="5jKBG" id="5CQxuj_GBrg" role="lGtFl">
-            <ref role="v9R2y" node="5CQxuj_GvNR" resolve="reduce_Displayquestion" />
+            <ref role="v9R2y" node="5CQxuj_GvNR" resolve="state_Displayquestion" />
             <node concept="3NFfHV" id="5CQxuj_GIO7" role="5jGum">
               <node concept="3clFbS" id="5CQxuj_GIO8" role="2VODD2">
                 <node concept="3clFbF" id="5CQxuj_GIXX" role="3cqZAp">
@@ -2153,7 +2153,7 @@
     </node>
   </node>
   <node concept="13MO4I" id="5CQxuj_GvNR">
-    <property role="TrG5h" value="reduce_Displayquestion" />
+    <property role="TrG5h" value="state_Displayquestion" />
     <ref role="3gUMe" to="eejj:6W0sWHAUyfZ" resolve="App" />
     <node concept="9aQIb" id="5CQxuj_GvOk" role="13RCb5">
       <node concept="3clFbS" id="5CQxuj_GvOl" role="9aQI4">
@@ -2426,7 +2426,7 @@
     </node>
   </node>
   <node concept="13MO4I" id="5CQxuj_GIe$">
-    <property role="TrG5h" value="reduce_ButtonPressed" />
+    <property role="TrG5h" value="state_ButtonPressed" />
     <node concept="9aQIb" id="5CQxuj_GJsl" role="13RCb5">
       <node concept="3clFbS" id="5CQxuj_GJsm" role="9aQI4">
         <node concept="raruj" id="5CQxuj_GJsp" role="lGtFl" />
