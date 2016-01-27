@@ -109,10 +109,18 @@
   <node concept="1TIwiD" id="3YAN9gYLZ$I">
     <property role="1pbfSe" value="2121188802" />
     <property role="TrG5h" value="Lcd" />
-    <ref role="1TJDcQ" node="6W0sWHAUy0I" resolve="Output" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="VrnJVEprET" role="1TKVEl">
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7OODKZaR8S" role="1TKVEl">
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7OODKZaR8V" role="1TKVEl">
+      <property role="TrG5h" value="plug" />
+      <ref role="AX2Wp" node="3YAN9gYM8$C" resolve="PLUG" />
     </node>
   </node>
   <node concept="AxPO7" id="3YAN9gYM8$C">
@@ -180,7 +188,15 @@
   <node concept="1TIwiD" id="VrnJVEpxve">
     <property role="1pbfSe" value="113150260" />
     <property role="TrG5h" value="Button" />
-    <ref role="1TJDcQ" node="6W0sWHAUyfT" resolve="Input" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7OODKZaBQu" role="1TKVEl">
+      <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7OODKZaBQw" role="1TKVEl">
+      <property role="TrG5h" value="plug" />
+      <ref role="AX2Wp" node="3YAN9gYM8$C" resolve="PLUG" />
+    </node>
   </node>
   <node concept="1TIwiD" id="VrnJVEpN7K">
     <property role="1pbfSe" value="113078034" />
