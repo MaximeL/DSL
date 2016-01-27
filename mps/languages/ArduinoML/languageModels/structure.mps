@@ -2,7 +2,7 @@
 <model ref="r:48503fd5-e4a6-43f7-a92c-dbfb32c080c6(ArduinoML.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -105,11 +105,35 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3YAN9gYLZ$I" resolve="Lcd" />
     </node>
+    <node concept="1TJgyj" id="5CQxuj_EAiQ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Questions" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5CQxuj_Etvf" resolve="QuestionArray" />
+    </node>
+    <node concept="1TJgyj" id="5CQxuj_EAiU" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Reponses" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5CQxuj_EAgz" resolve="ReponseArray" />
+    </node>
+    <node concept="1TJgyj" id="5CQxuj_EAiZ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Bonus" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5CQxuj_EAhv" resolve="Bonus" />
+    </node>
+    <node concept="1TJgyj" id="5CQxuj_EAj5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Malus" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5CQxuj_EAhX" resolve="Malus" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3YAN9gYLZ$I">
     <property role="1pbfSe" value="2121188802" />
     <property role="TrG5h" value="Lcd" />
-    <ref role="1TJDcQ" node="6W0sWHAUy0I" resolve="Output" />
+    <ref role="1TJDcQ" node="6W0sWHAUnjF" resolve="Brick" />
     <node concept="1TJgyi" id="VrnJVEprET" role="1TKVEl">
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -180,7 +204,7 @@
   <node concept="1TIwiD" id="VrnJVEpxve">
     <property role="1pbfSe" value="113150260" />
     <property role="TrG5h" value="Button" />
-    <ref role="1TJDcQ" node="6W0sWHAUyfT" resolve="Input" />
+    <ref role="1TJDcQ" node="6W0sWHAUnjF" resolve="Brick" />
   </node>
   <node concept="1TIwiD" id="VrnJVEpN7K">
     <property role="1pbfSe" value="113078034" />
@@ -215,6 +239,64 @@
     <node concept="M4N5e" id="5CQxuj_Esp$" role="M5hS2">
       <property role="1uS6qv" value="false" />
       <property role="1uS6qo" value="low" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5CQxuj_Etvf">
+    <property role="1pbfSe" value="1071668659" />
+    <property role="TrG5h" value="QuestionArray" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5CQxuj_EAg3" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Question" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5CQxuj_EAg5" resolve="Question" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5CQxuj_EAg5">
+    <property role="1pbfSe" value="1071704553" />
+    <property role="TrG5h" value="Question" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5CQxuj_EAgx" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5CQxuj_EAgz">
+    <property role="1pbfSe" value="1071704583" />
+    <property role="TrG5h" value="ReponseArray" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5CQxuj_EAht" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="reponses" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5CQxuj_EAgZ" resolve="Reponse" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5CQxuj_EAgZ">
+    <property role="1pbfSe" value="1071704611" />
+    <property role="TrG5h" value="Reponse" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5CQxuj_EAhr" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5CQxuj_EAhv">
+    <property role="1pbfSe" value="1071704643" />
+    <property role="TrG5h" value="Bonus" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5CQxuj_EAhV" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5CQxuj_EAhX">
+    <property role="1pbfSe" value="1071704673" />
+    <property role="TrG5h" value="Malus" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5CQxuj_EAip" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
