@@ -2,11 +2,11 @@
 <model ref="r:0e652d73-6289-4ce3-b138-d71bc31f75f2(ArduinoML.DualCheck)">
   <persistence version="9" />
   <languages>
-    <use id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML" version="0" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
   </languages>
   <imports>
-    <import index="m1dl" ref="r:0e652d73-6289-4ce3-b138-d71bc31f75f2(ArduinoML.DualCheck)" />
+    <import index="m1dl" ref="r:0e652d73-6289-4ce3-b138-d71bc31f75f2(ArduinoML.Dualcheck)" />
   </imports>
   <registry>
     <language id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML">
@@ -54,14 +54,21 @@
   </registry>
   <node concept="9U_0O" id="65R_3l9W4FZ">
     <property role="TrG5h" value="DualCheck" />
-    <node concept="2ZBO4j" id="5CQxuj_EIeO" role="2ZBO3U">
-      <node concept="3$Jk$K" id="5CQxuj_EIeP" role="2ZBO3R">
-        <property role="TrG5h" value="coucou" />
-        <property role="1r$l0" value="1" />
-      </node>
-      <node concept="3$Jk$K" id="5CQxuj_EIeQ" role="2ZBO3L">
-        <property role="TrG5h" value="bobob" />
-        <property role="1r$l0" value="2" />
+    <node concept="1ojmU" id="5CQxuj_GraX" role="2ZBO30">
+      <property role="TrG5h" value="coucouc" />
+      <property role="1r$l0" value="1" />
+    </node>
+    <node concept="2ZBe6p" id="5CQxuj_ESYa" role="2ZBe4x">
+      <property role="2ZBe5X" value="0" />
+    </node>
+    <node concept="2ZBe6V" id="5CQxuj_ESY3" role="2ZBe5r">
+      <property role="2ZBe6v" value="0" />
+    </node>
+    <node concept="2ZBe77" id="5CQxuj_ESPL" role="2ZBe5u">
+      <node concept="2ZBe7r" id="5CQxuj_ESPN" role="2ZBe6T" />
+      <node concept="2ZBe7r" id="5CQxuj_ESPP" role="2ZBe6T" />
+      <node concept="2ZBe7r" id="5CQxuj_EVAu" role="2ZBe6T">
+        <property role="2ZBe6Z" value="true" />
       </node>
     </node>
     <node concept="2ZBP8F" id="5CQxuj_EIeU" role="2ZBe5i">
@@ -75,22 +82,15 @@
         <property role="2ZBe75" value="&quot;salut&quot;" />
       </node>
     </node>
-    <node concept="2ZBe77" id="5CQxuj_ESPL" role="2ZBe5u">
-      <node concept="2ZBe7r" id="5CQxuj_ESPN" role="2ZBe6T" />
-      <node concept="2ZBe7r" id="5CQxuj_ESPP" role="2ZBe6T" />
-      <node concept="2ZBe7r" id="5CQxuj_EVAu" role="2ZBe6T">
-        <property role="2ZBe6Z" value="true" />
+    <node concept="2ZBO4j" id="5CQxuj_EIeO" role="2ZBO3U">
+      <node concept="3$Jk$K" id="5CQxuj_EIeP" role="2ZBO3R">
+        <property role="TrG5h" value="coucou" />
+        <property role="1r$l0" value="1" />
       </node>
-    </node>
-    <node concept="2ZBe6V" id="5CQxuj_ESY3" role="2ZBe5r">
-      <property role="2ZBe6v" value="0" />
-    </node>
-    <node concept="2ZBe6p" id="5CQxuj_ESYa" role="2ZBe4x">
-      <property role="2ZBe5X" value="0" />
-    </node>
-    <node concept="1ojmU" id="5CQxuj_GraX" role="2ZBO30">
-      <property role="TrG5h" value="coucouc" />
-      <property role="1r$l0" value="1" />
+      <node concept="3$Jk$K" id="5CQxuj_EIeQ" role="2ZBO3L">
+        <property role="TrG5h" value="bobob" />
+        <property role="1r$l0" value="2" />
+      </node>
     </node>
   </node>
 </model>
