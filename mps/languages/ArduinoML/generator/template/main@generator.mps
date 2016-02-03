@@ -2647,7 +2647,7 @@
             <node concept="liA8E" id="5Xve0szFxNw" role="2OqNvi">
               <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="5Xve0szFxNx" role="37wK5m">
-                <property role="Xl_RC" value="delay(100);" />
+                <property role="Xl_RC" value="delay(500);" />
               </node>
             </node>
           </node>
