@@ -2,7 +2,7 @@
 <model ref="r:48503fd5-e4a6-43f7-a92c-dbfb32c080c6(ArduinoML.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -99,14 +99,14 @@
   <node concept="1TIwiD" id="3YAN9gYLZ$I">
     <property role="1pbfSe" value="2121188802" />
     <property role="TrG5h" value="Lcd" />
-    <ref role="1TJDcQ" node="4vNhoX7AhgE" resolve="Pluggable" />
+    <ref role="1TJDcQ" node="4vNhoX7AhgE" resolve="Pins" />
     <node concept="1TJgyi" id="7OODKZb4ZT" role="1TKVEl">
       <property role="TrG5h" value="textSpeed" />
       <ref role="AX2Wp" node="7OODKZb4ZY" resolve="TEXTSPEED" />
     </node>
   </node>
   <node concept="AxPO7" id="3YAN9gYM8$C">
-    <property role="TrG5h" value="PLUG" />
+    <property role="TrG5h" value="PINS" />
     <property role="PDuV0" value="true" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <node concept="M4N5e" id="3YAN9gYM8A1" role="M5hS2">
@@ -125,17 +125,17 @@
   <node concept="1TIwiD" id="VrnJVEpTc7">
     <property role="1pbfSe" value="113053179" />
     <property role="TrG5h" value="buzzer" />
-    <ref role="1TJDcQ" node="4vNhoX7Ahgc" resolve="Pinnable" />
+    <ref role="1TJDcQ" node="4vNhoX7Ahgc" resolve="Pin" />
   </node>
   <node concept="1TIwiD" id="VrnJVEpxve">
     <property role="1pbfSe" value="113150260" />
     <property role="TrG5h" value="Button" />
-    <ref role="1TJDcQ" node="4vNhoX7Ahgc" resolve="Pinnable" />
+    <ref role="1TJDcQ" node="4vNhoX7Ahgc" resolve="Pin" />
   </node>
   <node concept="1TIwiD" id="VrnJVEpN7K">
     <property role="1pbfSe" value="113078034" />
     <property role="TrG5h" value="Light" />
-    <ref role="1TJDcQ" node="4vNhoX7Ahgc" resolve="Pinnable" />
+    <ref role="1TJDcQ" node="4vNhoX7Ahgc" resolve="Pin" />
   </node>
   <node concept="1TIwiD" id="5CQxuj_EsjR">
     <property role="1pbfSe" value="1071663835" />
@@ -289,7 +289,7 @@
   </node>
   <node concept="1TIwiD" id="4vNhoX7Ahgc">
     <property role="1pbfSe" value="1886627429" />
-    <property role="TrG5h" value="Pinnable" />
+    <property role="TrG5h" value="Pin" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4vNhoX7AhgC" role="1TKVEl">
       <property role="TrG5h" value="pin" />
@@ -301,11 +301,11 @@
   </node>
   <node concept="1TIwiD" id="4vNhoX7AhgE">
     <property role="1pbfSe" value="1886627399" />
-    <property role="TrG5h" value="Pluggable" />
+    <property role="TrG5h" value="Pins" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4vNhoX7Ahh6" role="1TKVEl">
       <property role="TrG5h" value="plug" />
-      <ref role="AX2Wp" node="3YAN9gYM8$C" resolve="PLUG" />
+      <ref role="AX2Wp" node="3YAN9gYM8$C" resolve="PINS" />
     </node>
     <node concept="PrWs8" id="4vNhoX7Ahhj" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
