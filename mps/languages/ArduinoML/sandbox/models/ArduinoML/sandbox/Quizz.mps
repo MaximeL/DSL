@@ -7,10 +7,10 @@
   <imports />
   <registry>
     <language id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML">
-      <concept id="5184564077717427212" name="ArduinoML.structure.Pinnable" flags="ng" index="0q_63">
+      <concept id="5184564077717427212" name="ArduinoML.structure.Pin" flags="ng" index="0q_63">
         <property id="5184564077717427240" name="pin" index="0q_6B" />
       </concept>
-      <concept id="5184564077717427242" name="ArduinoML.structure.Pluggable" flags="ng" index="0q_6_">
+      <concept id="5184564077717427242" name="ArduinoML.structure.Pins" flags="ng" index="0q_6_">
         <property id="5184564077717427270" name="plug" index="0q_79" />
       </concept>
       <concept id="4586578207603947822" name="ArduinoML.structure.Lcd" flags="ng" index="1ojmU" />
@@ -64,19 +64,35 @@
     <node concept="2ZBO4j" id="7Fe1CSYnZVw" role="2ZBO3U">
       <node concept="3$Jk$K" id="7Fe1CSYnZVx" role="2ZBO3L">
         <property role="TrG5h" value="no" />
-        <property role="0q_6B" value="2" />
+        <property role="0q_6B" value="9" />
       </node>
       <node concept="3$Jk$K" id="7Fe1CSYnZVy" role="2ZBO3R">
         <property role="TrG5h" value="yes" />
-        <property role="0q_6B" value="1" />
+        <property role="0q_6B" value="8" />
       </node>
     </node>
     <node concept="14$lbj" id="7Fe1CSYoF57" role="14$l8G">
       <node concept="2ZBe7x" id="7Fe1CSYoF58" role="14$lbR">
-        <property role="2ZBe75" value="coucou" />
+        <property role="2ZBe75" value="putain de dsl j'en peux plus tu dois marcher" />
       </node>
       <node concept="2ZBe7r" id="7Fe1CSYoF59" role="14$lbP">
+        <property role="2ZBe6Z" value="true" />
+      </node>
+    </node>
+    <node concept="14$lbj" id="6n0oxXBoLym" role="14$l8G">
+      <node concept="2ZBe7x" id="6n0oxXBoLyn" role="14$lbR">
+        <property role="2ZBe75" value="yoyoyo salut tout le monde" />
+      </node>
+      <node concept="2ZBe7r" id="6n0oxXBoLyo" role="14$lbP">
         <property role="2ZBe6Z" value="false" />
+      </node>
+    </node>
+    <node concept="14$lbj" id="6n0oxXBoLyv" role="14$l8G">
+      <node concept="2ZBe7x" id="6n0oxXBoLyw" role="14$lbR">
+        <property role="2ZBe75" value="stop pd" />
+      </node>
+      <node concept="2ZBe7r" id="6n0oxXBoLyx" role="14$lbP">
+        <property role="2ZBe6Z" value="true" />
       </node>
     </node>
   </node>
