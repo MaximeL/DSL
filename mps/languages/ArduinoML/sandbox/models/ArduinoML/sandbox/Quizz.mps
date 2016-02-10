@@ -7,10 +7,10 @@
   <imports />
   <registry>
     <language id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML">
-      <concept id="5184564077717427212" name="ArduinoML.structure.Pinnable" flags="ng" index="0q_63">
+      <concept id="5184564077717427212" name="ArduinoML.structure.IPin" flags="ng" index="0q_63">
         <property id="5184564077717427240" name="pin" index="0q_6B" />
       </concept>
-      <concept id="5184564077717427242" name="ArduinoML.structure.Pluggable" flags="ng" index="0q_6_">
+      <concept id="5184564077717427242" name="ArduinoML.structure.IPins" flags="ng" index="0q_6_">
         <property id="5184564077717427270" name="plug" index="0q_79" />
       </concept>
       <concept id="4586578207603947822" name="ArduinoML.structure.Lcd" flags="ng" index="1ojmU" />
@@ -71,12 +71,20 @@
         <property role="0q_6B" value="1" />
       </node>
     </node>
-    <node concept="14$lbj" id="7Fe1CSYoF57" role="14$l8G">
-      <node concept="2ZBe7x" id="7Fe1CSYoF58" role="14$lbR">
-        <property role="2ZBe75" value="coucou" />
+    <node concept="14$lbj" id="vX8l9fHuwn" role="14$l8G">
+      <node concept="2ZBe7x" id="vX8l9fHuwo" role="14$lbR">
+        <property role="2ZBe75" value="Ce quizz marche ?" />
       </node>
-      <node concept="2ZBe7r" id="7Fe1CSYoF59" role="14$lbP">
-        <property role="2ZBe6Z" value="false" />
+      <node concept="2ZBe7r" id="vX8l9fHuwp" role="14$lbP">
+        <property role="2ZBe6Z" value="true" />
+      </node>
+    </node>
+    <node concept="14$lbj" id="vX8l9fHuwt" role="14$l8G">
+      <node concept="2ZBe7x" id="vX8l9fHuwu" role="14$lbR">
+        <property role="2ZBe75" value="Est-ce que cette question est longue pour test le lcd ?" />
+      </node>
+      <node concept="2ZBe7r" id="vX8l9fHuwv" role="14$lbP">
+        <property role="2ZBe6Z" value="true" />
       </node>
     </node>
   </node>
