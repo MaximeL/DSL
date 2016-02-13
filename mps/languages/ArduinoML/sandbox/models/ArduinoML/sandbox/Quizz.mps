@@ -7,10 +7,10 @@
   <imports />
   <registry>
     <language id="c1dc408c-e7a3-41f6-8704-d43e42edd7d2" name="ArduinoML">
-      <concept id="5184564077717427212" name="ArduinoML.structure.IPin" flags="ng" index="0q_63">
+      <concept id="5184564077717427212" name="ArduinoML.structure.Pin" flags="ng" index="0q_63">
         <property id="5184564077717427240" name="pin" index="0q_6B" />
       </concept>
-      <concept id="5184564077717427242" name="ArduinoML.structure.IPins" flags="ng" index="0q_6_">
+      <concept id="5184564077717427242" name="ArduinoML.structure.Pins" flags="ng" index="0q_6_">
         <property id="5184564077717427270" name="plug" index="0q_79" />
       </concept>
       <concept id="4586578207603947822" name="ArduinoML.structure.Lcd" flags="ng" index="1ojmU" />
@@ -51,26 +51,6 @@
   </registry>
   <node concept="9U_0O" id="7Fe1CSYnZVq">
     <property role="TrG5h" value="Quizz" />
-    <node concept="1ojmU" id="7Fe1CSYnZVr" role="2ZBO30">
-      <property role="TrG5h" value="lcd" />
-      <property role="0q_79" value="13" />
-    </node>
-    <node concept="2ZBe6V" id="7Fe1CSYnZVu" role="2ZBe5r">
-      <property role="2ZBe6v" value="0" />
-    </node>
-    <node concept="2ZBe6p" id="7Fe1CSYnZVv" role="2ZBe4x">
-      <property role="2ZBe5X" value="0" />
-    </node>
-    <node concept="2ZBO4j" id="7Fe1CSYnZVw" role="2ZBO3U">
-      <node concept="3$Jk$K" id="7Fe1CSYnZVx" role="2ZBO3L">
-        <property role="TrG5h" value="no" />
-        <property role="0q_6B" value="2" />
-      </node>
-      <node concept="3$Jk$K" id="7Fe1CSYnZVy" role="2ZBO3R">
-        <property role="TrG5h" value="yes" />
-        <property role="0q_6B" value="1" />
-      </node>
-    </node>
     <node concept="14$lbj" id="vX8l9fHuwn" role="14$l8G">
       <node concept="2ZBe7x" id="vX8l9fHuwo" role="14$lbR">
         <property role="2ZBe75" value="Ce quizz marche ?" />
@@ -85,6 +65,26 @@
       </node>
       <node concept="2ZBe7r" id="vX8l9fHuwv" role="14$lbP">
         <property role="2ZBe6Z" value="true" />
+      </node>
+    </node>
+    <node concept="1ojmU" id="7Fe1CSYnZVr" role="2ZBO30">
+      <property role="TrG5h" value="lcd" />
+      <property role="0q_79" value="13" />
+    </node>
+    <node concept="2ZBe6V" id="7Fe1CSYnZVu" role="2ZBe5r">
+      <property role="2ZBe6v" value="0" />
+    </node>
+    <node concept="2ZBe6p" id="7Fe1CSYnZVv" role="2ZBe4x">
+      <property role="2ZBe5X" value="0" />
+    </node>
+    <node concept="2ZBO4j" id="7Fe1CSYnZVw" role="2ZBO3U">
+      <node concept="3$Jk$K" id="7Fe1CSYnZVx" role="2ZBO3L">
+        <property role="TrG5h" value="no" />
+        <property role="0q_6B" value="9" />
+      </node>
+      <node concept="3$Jk$K" id="7Fe1CSYnZVy" role="2ZBO3R">
+        <property role="TrG5h" value="yes" />
+        <property role="0q_6B" value="8" />
       </node>
     </node>
   </node>
