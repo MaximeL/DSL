@@ -51,6 +51,22 @@
   </registry>
   <node concept="9U_0O" id="7Fe1CSYnZVq">
     <property role="TrG5h" value="Quizz" />
+    <node concept="14$lbj" id="vX8l9fHuwn" role="14$l8G">
+      <node concept="2ZBe7x" id="vX8l9fHuwo" role="14$lbR">
+        <property role="2ZBe75" value="Ce quizz marche ?" />
+      </node>
+      <node concept="2ZBe7r" id="vX8l9fHuwp" role="14$lbP">
+        <property role="2ZBe6Z" value="true" />
+      </node>
+    </node>
+    <node concept="14$lbj" id="vX8l9fHuwt" role="14$l8G">
+      <node concept="2ZBe7x" id="vX8l9fHuwu" role="14$lbR">
+        <property role="2ZBe75" value="Est-ce que cette question est longue pour test le lcd ?" />
+      </node>
+      <node concept="2ZBe7r" id="vX8l9fHuwv" role="14$lbP">
+        <property role="2ZBe6Z" value="true" />
+      </node>
+    </node>
     <node concept="1ojmU" id="7Fe1CSYnZVr" role="2ZBO30">
       <property role="TrG5h" value="lcd" />
       <property role="0q_79" value="13" />
@@ -69,30 +85,6 @@
       <node concept="3$Jk$K" id="7Fe1CSYnZVy" role="2ZBO3R">
         <property role="TrG5h" value="yes" />
         <property role="0q_6B" value="8" />
-      </node>
-    </node>
-    <node concept="14$lbj" id="7Fe1CSYoF57" role="14$l8G">
-      <node concept="2ZBe7x" id="7Fe1CSYoF58" role="14$lbR">
-        <property role="2ZBe75" value="putain de dsl j'en peux plus tu dois marcher" />
-      </node>
-      <node concept="2ZBe7r" id="7Fe1CSYoF59" role="14$lbP">
-        <property role="2ZBe6Z" value="true" />
-      </node>
-    </node>
-    <node concept="14$lbj" id="6n0oxXBoLym" role="14$l8G">
-      <node concept="2ZBe7x" id="6n0oxXBoLyn" role="14$lbR">
-        <property role="2ZBe75" value="yoyoyo salut tout le monde" />
-      </node>
-      <node concept="2ZBe7r" id="6n0oxXBoLyo" role="14$lbP">
-        <property role="2ZBe6Z" value="false" />
-      </node>
-    </node>
-    <node concept="14$lbj" id="6n0oxXBoLyv" role="14$l8G">
-      <node concept="2ZBe7x" id="6n0oxXBoLyw" role="14$lbR">
-        <property role="2ZBe75" value="stop pd" />
-      </node>
-      <node concept="2ZBe7r" id="6n0oxXBoLyx" role="14$lbP">
-        <property role="2ZBe6Z" value="true" />
       </node>
     </node>
   </node>

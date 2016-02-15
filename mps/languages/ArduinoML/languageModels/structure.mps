@@ -342,5 +342,14 @@
       <property role="1uS6qv" value="false" />
     </node>
   </node>
+  <node concept="1TIwiD" id="vX8l9fGfXv">
+    <property role="1pbfSe" value="1471029425" />
+    <property role="TrG5h" value="stringType" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="vX8l9fGfXV" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
