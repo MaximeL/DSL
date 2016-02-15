@@ -19,6 +19,7 @@
         <child id="6500530330308076735" name="Bonus" index="2ZBe5r" />
         <child id="6500530330308035876" name="Lcd" index="2ZBO30" />
         <child id="6500530330308035870" name="Buttons" index="2ZBO3U" />
+        <child id="3236719340754333236" name="Leds" index="13DOOz" />
         <child id="8849017525831160994" name="Questions" index="14$l8G" />
       </concept>
       <concept id="6500530330308076669" name="ArduinoML.structure.Malus" flags="ng" index="2ZBe6p">
@@ -36,6 +37,11 @@
       <concept id="6500530330308035831" name="ArduinoML.structure.Buttons" flags="ng" index="2ZBO4j">
         <child id="6500530330308035861" name="No" index="2ZBO3L" />
         <child id="6500530330308035859" name="Yes" index="2ZBO3R" />
+      </concept>
+      <concept id="3236719340754242349" name="ArduinoML.structure.Led" flags="ng" index="13C2wU" />
+      <concept id="3236719340754242404" name="ArduinoML.structure.Leds" flags="ng" index="13C2xN">
+        <child id="3236719340754242438" name="Red" index="13C2yh" />
+        <child id="3236719340754242432" name="Green" index="13C2yn" />
       </concept>
       <concept id="8849017525831160925" name="ArduinoML.structure.Questions" flags="ng" index="14$lbj">
         <child id="8849017525831160955" name="reponse" index="14$lbP" />
@@ -93,6 +99,14 @@
       </node>
       <node concept="2ZBe7r" id="6n0oxXBoLyx" role="14$lbP">
         <property role="2ZBe6Z" value="true" />
+      </node>
+    </node>
+    <node concept="13C2xN" id="2NF8LtJjgcB" role="13DOOz">
+      <node concept="13C2wU" id="2NF8LtJjgcC" role="13C2yh">
+        <property role="0q_6B" value="11" />
+      </node>
+      <node concept="13C2wU" id="2NF8LtJjgcD" role="13C2yn">
+        <property role="0q_6B" value="10" />
       </node>
     </node>
   </node>

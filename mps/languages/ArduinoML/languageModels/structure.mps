@@ -71,6 +71,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5CQxuj_EsjR" resolve="Buttons" />
     </node>
+    <node concept="1TJgyj" id="2NF8LtJj6SO" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Leds" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2NF8LtJiKH$" resolve="Leds" />
+    </node>
     <node concept="1TJgyj" id="5CQxuj_Esk$" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="Lcd" />
@@ -340,6 +346,28 @@
     <node concept="M4N5e" id="7Fe1CSYohIl" role="M5hS2">
       <property role="1uS6qo" value="False" />
       <property role="1uS6qv" value="false" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2NF8LtJiKGH">
+    <property role="1pbfSe" value="1674170812" />
+    <property role="TrG5h" value="Led" />
+    <ref role="1TJDcQ" node="4vNhoX7Ahgc" resolve="Pin" />
+  </node>
+  <node concept="1TIwiD" id="2NF8LtJiKH$">
+    <property role="1pbfSe" value="1674170757" />
+    <property role="TrG5h" value="Leds" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2NF8LtJiKI0" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Green" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2NF8LtJiKGH" resolve="Led" />
+    </node>
+    <node concept="1TJgyj" id="2NF8LtJiKI6" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Red" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2NF8LtJiKGH" resolve="Led" />
     </node>
   </node>
 </model>
