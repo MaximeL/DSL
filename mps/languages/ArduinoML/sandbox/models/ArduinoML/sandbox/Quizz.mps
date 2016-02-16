@@ -56,7 +56,7 @@
     </language>
   </registry>
   <node concept="9U_0O" id="7Fe1CSYnZVq">
-    <property role="TrG5h" value="Quizz" />
+    <property role="TrG5h" value="Quiz" />
     <node concept="1ojmU" id="7Fe1CSYnZVr" role="2ZBO30">
       <property role="TrG5h" value="lcd" />
       <property role="0q_79" value="13" />
@@ -70,32 +70,32 @@
     <node concept="2ZBO4j" id="7Fe1CSYnZVw" role="2ZBO3U">
       <node concept="3$Jk$K" id="7Fe1CSYnZVx" role="2ZBO3L">
         <property role="TrG5h" value="no" />
-        <property role="0q_6B" value="9" />
+        <property role="0q_6B" value="10" />
       </node>
       <node concept="3$Jk$K" id="7Fe1CSYnZVy" role="2ZBO3R">
         <property role="TrG5h" value="yes" />
-        <property role="0q_6B" value="8" />
+        <property role="0q_6B" value="9" />
       </node>
     </node>
     <node concept="14$lbj" id="7Fe1CSYoF57" role="14$l8G">
       <node concept="2ZBe7x" id="7Fe1CSYoF58" role="14$lbR">
-        <property role="2ZBe75" value="putain de dsl j'en peux plus tu dois marcher" />
+        <property role="2ZBe75" value="Le cameleon a une tres courte langue" />
       </node>
       <node concept="2ZBe7r" id="7Fe1CSYoF59" role="14$lbP">
-        <property role="2ZBe6Z" value="true" />
+        <property role="2ZBe6Z" value="false" />
       </node>
     </node>
     <node concept="14$lbj" id="6n0oxXBoLym" role="14$l8G">
       <node concept="2ZBe7x" id="6n0oxXBoLyn" role="14$lbR">
-        <property role="2ZBe75" value="yoyoyo salut tout le monde" />
+        <property role="2ZBe75" value="Le celadon designe la couleur vert pale" />
       </node>
       <node concept="2ZBe7r" id="6n0oxXBoLyo" role="14$lbP">
-        <property role="2ZBe6Z" value="false" />
+        <property role="2ZBe6Z" value="true" />
       </node>
     </node>
     <node concept="14$lbj" id="6n0oxXBoLyv" role="14$l8G">
       <node concept="2ZBe7x" id="6n0oxXBoLyw" role="14$lbR">
-        <property role="2ZBe75" value="stop pd" />
+        <property role="2ZBe75" value="Un charme est un arbre" />
       </node>
       <node concept="2ZBe7r" id="6n0oxXBoLyx" role="14$lbP">
         <property role="2ZBe6Z" value="true" />
@@ -103,10 +103,10 @@
     </node>
     <node concept="13C2xN" id="2NF8LtJjgcB" role="13DOOz">
       <node concept="13C2wU" id="2NF8LtJjgcC" role="13C2yh">
-        <property role="0q_6B" value="11" />
+        <property role="0q_6B" value="12" />
       </node>
       <node concept="13C2wU" id="2NF8LtJjgcD" role="13C2yn">
-        <property role="0q_6B" value="10" />
+        <property role="0q_6B" value="11" />
       </node>
     </node>
   </node>
