@@ -12,18 +12,10 @@
       </concept>
       <concept id="4586578207603947822" name="ArduinoML.structure.Lcd" flags="ng" index="1ojmU" />
       <concept id="7998520255652176895" name="ArduinoML.structure.App" flags="ng" index="9U_0O">
-        <child id="6500530330308076741" name="Malus" index="2ZBe4x" />
-        <child id="6500530330308076735" name="Bonus" index="2ZBe5r" />
         <child id="6500530330308035876" name="Lcd" index="2ZBO30" />
         <child id="6500530330308035870" name="Buttons" index="2ZBO3U" />
         <child id="3236719340754333236" name="Leds" index="13DOOz" />
         <child id="8849017525831160994" name="Questions" index="14$l8G" />
-      </concept>
-      <concept id="6500530330308076669" name="ArduinoML.structure.Malus" flags="ng" index="2ZBe6p">
-        <property id="6500530330308076697" name="value" index="2ZBe5X" />
-      </concept>
-      <concept id="6500530330308076639" name="ArduinoML.structure.Bonus" flags="ng" index="2ZBe6V">
-        <property id="6500530330308076667" name="value" index="2ZBe6v" />
       </concept>
       <concept id="6500530330308076607" name="ArduinoML.structure.Response" flags="ng" index="2ZBe7r">
         <property id="6500530330308076635" name="value" index="2ZBe6Z" />
@@ -55,12 +47,6 @@
   <node concept="9U_0O" id="7Fe1CSYnZVq">
     <property role="TrG5h" value="Quiz" />
     <node concept="1ojmU" id="5w8_o3rAPl3" role="2ZBO30" />
-    <node concept="2ZBe6V" id="7Fe1CSYnZVu" role="2ZBe5r">
-      <property role="2ZBe6v" value="0" />
-    </node>
-    <node concept="2ZBe6p" id="7Fe1CSYnZVv" role="2ZBe4x">
-      <property role="2ZBe5X" value="0" />
-    </node>
     <node concept="2ZBO4j" id="7Fe1CSYnZVw" role="2ZBO3U">
       <node concept="3$Jk$K" id="7Fe1CSYnZVx" role="2ZBO3L">
         <property role="TrG5h" value="no" />

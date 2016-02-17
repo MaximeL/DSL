@@ -83,18 +83,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3YAN9gYLZ$I" resolve="Lcd" />
     </node>
-    <node concept="1TJgyj" id="5CQxuj_EAiZ" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="Bonus" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5CQxuj_EAhv" resolve="Bonus" />
-    </node>
-    <node concept="1TJgyj" id="5CQxuj_EAj5" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="Malus" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5CQxuj_EAhX" resolve="Malus" />
-    </node>
     <node concept="1TJgyj" id="7Fe1CSYnPiy" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="Questions" />
@@ -143,19 +131,6 @@
       <ref role="20lvS9" node="VrnJVEpxve" resolve="Button" />
     </node>
   </node>
-  <node concept="AxPO7" id="5CQxuj_Esp7">
-    <property role="TrG5h" value="STATUS" />
-    <property role="PDuV0" value="true" />
-    <ref role="M4eZT" to="tpck:fKAQMTB" resolve="boolean" />
-    <node concept="M4N5e" id="5CQxuj_Esp8" role="M5hS2">
-      <property role="1uS6qv" value="true" />
-      <property role="1uS6qo" value="high" />
-    </node>
-    <node concept="M4N5e" id="5CQxuj_Esp$" role="M5hS2">
-      <property role="1uS6qv" value="false" />
-      <property role="1uS6qo" value="low" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="5CQxuj_EAhv">
     <property role="1pbfSe" value="1071704643" />
     <property role="TrG5h" value="Bonus" />
@@ -183,17 +158,6 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5CQxuj_Etvf">
-    <property role="1pbfSe" value="1071668659" />
-    <property role="TrG5h" value="QuestionArray" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5CQxuj_EAg3" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="Question" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5CQxuj_EAg5" resolve="Question" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="5CQxuj_EAgZ">
     <property role="1pbfSe" value="1071704611" />
     <property role="TrG5h" value="Response" />
@@ -203,19 +167,9 @@
       <ref role="AX2Wp" node="7Fe1CSYohHS" resolve="BOOL" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5CQxuj_EAgz">
-    <property role="1pbfSe" value="1071704583" />
-    <property role="TrG5h" value="ReponseArray" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5CQxuj_EAht" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="reponses" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5CQxuj_EAgZ" resolve="Response" />
-    </node>
-  </node>
   <node concept="AxPO7" id="7OODKZb4ZY">
     <property role="TrG5h" value="TEXTSPEED" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <ref role="Qgau1" node="7OODKZb50v" />
     <node concept="M4N5e" id="7OODKZb4ZZ" role="M5hS2">
@@ -232,8 +186,9 @@
     </node>
   </node>
   <node concept="AxPO7" id="4vNhoX7AhaY">
-    <property role="TrG5h" value="PIN" />
+    <property role="TrG5h" value="PIN_ENUM" />
     <property role="PDuV0" value="true" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <node concept="M4N5e" id="5w8_o3rAC22" role="M5hS2">
       <property role="1uS6qv" value="9" />
@@ -258,7 +213,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="4vNhoX7AhgC" role="1TKVEl">
       <property role="TrG5h" value="pin" />
-      <ref role="AX2Wp" node="4vNhoX7AhaY" resolve="PIN" />
+      <ref role="AX2Wp" node="4vNhoX7AhaY" resolve="PIN_ENUM" />
     </node>
     <node concept="PrWs8" id="4vNhoX7Ahhh" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
