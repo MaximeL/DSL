@@ -105,27 +105,10 @@
   <node concept="1TIwiD" id="3YAN9gYLZ$I">
     <property role="1pbfSe" value="2121188802" />
     <property role="TrG5h" value="Lcd" />
-    <ref role="1TJDcQ" node="4vNhoX7AhgE" resolve="Pins" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7OODKZb4ZT" role="1TKVEl">
       <property role="TrG5h" value="textSpeed" />
       <ref role="AX2Wp" node="7OODKZb4ZY" resolve="TEXTSPEED" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="3YAN9gYM8$C">
-    <property role="TrG5h" value="PINS" />
-    <property role="PDuV0" value="true" />
-    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
-    <node concept="M4N5e" id="3YAN9gYM8A1" role="M5hS2">
-      <property role="1uS6qv" value="13" />
-      <property role="1uS6qo" value="BUS1" />
-    </node>
-    <node concept="M4N5e" id="3YAN9gYM8Ad" role="M5hS2">
-      <property role="1uS6qv" value="14" />
-      <property role="1uS6qo" value="BUS2" />
-    </node>
-    <node concept="M4N5e" id="3YAN9gYM8Aq" role="M5hS2">
-      <property role="1uS6qv" value="15" />
-      <property role="1uS6qo" value="BUS3" />
     </node>
   </node>
   <node concept="1TIwiD" id="VrnJVEpTc7">
@@ -252,37 +235,13 @@
     <property role="TrG5h" value="PIN" />
     <property role="PDuV0" value="true" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
-    <node concept="M4N5e" id="4vNhoX7AhaZ" role="M5hS2">
-      <property role="1uS6qv" value="1" />
-      <property role="1uS6qo" value="A1" />
-    </node>
-    <node concept="M4N5e" id="4vNhoX7Ahbr" role="M5hS2">
-      <property role="1uS6qo" value="A2" />
-      <property role="1uS6qv" value="2" />
-    </node>
-    <node concept="M4N5e" id="4vNhoX7Ahbu" role="M5hS2">
-      <property role="1uS6qo" value="A3" />
-      <property role="1uS6qv" value="3" />
-    </node>
-    <node concept="M4N5e" id="4vNhoX7Ahby" role="M5hS2">
-      <property role="1uS6qo" value="A4" />
-      <property role="1uS6qv" value="4" />
-    </node>
-    <node concept="M4N5e" id="4vNhoX7AhbB" role="M5hS2">
-      <property role="1uS6qo" value="A5" />
-      <property role="1uS6qv" value="5" />
-    </node>
-    <node concept="M4N5e" id="4vNhoX7AhbH" role="M5hS2">
-      <property role="1uS6qo" value="D8" />
-      <property role="1uS6qv" value="8" />
-    </node>
-    <node concept="M4N5e" id="4vNhoX7AhbO" role="M5hS2">
-      <property role="1uS6qo" value="D9" />
+    <node concept="M4N5e" id="5w8_o3rAC22" role="M5hS2">
       <property role="1uS6qv" value="9" />
+      <property role="1uS6qo" value="D9" />
     </node>
-    <node concept="M4N5e" id="4vNhoX7AhbW" role="M5hS2">
-      <property role="1uS6qo" value="D10" />
+    <node concept="M4N5e" id="5w8_o3rAC26" role="M5hS2">
       <property role="1uS6qv" value="10" />
+      <property role="1uS6qo" value="D10" />
     </node>
     <node concept="M4N5e" id="4vNhoX7Ahc5" role="M5hS2">
       <property role="1uS6qo" value="D11" />
@@ -302,18 +261,6 @@
       <ref role="AX2Wp" node="4vNhoX7AhaY" resolve="PIN" />
     </node>
     <node concept="PrWs8" id="4vNhoX7Ahhh" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="4vNhoX7AhgE">
-    <property role="1pbfSe" value="1886627399" />
-    <property role="TrG5h" value="Pins" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="4vNhoX7Ahh6" role="1TKVEl">
-      <property role="TrG5h" value="plug" />
-      <ref role="AX2Wp" node="3YAN9gYM8$C" resolve="PINS" />
-    </node>
-    <node concept="PrWs8" id="4vNhoX7Ahhj" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

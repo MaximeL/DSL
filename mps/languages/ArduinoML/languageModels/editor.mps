@@ -49,14 +49,8 @@
   <node concept="24kQdi" id="VrnJVEplQy">
     <ref role="1XX52x" to="eejj:3YAN9gYLZ$I" resolve="Lcd" />
     <node concept="3EZMnI" id="VrnJVEplQ$" role="2wV5jI">
-      <node concept="3F0ifn" id="VrnJVEplQB" role="3EZMnx">
-        <property role="3F0ifm" value="plugged in" />
-      </node>
-      <node concept="3F0A7n" id="VrnJVEplQC" role="3EZMnx">
-        <ref role="1NtTu8" to="eejj:4vNhoX7Ahh6" resolve="plug" />
-      </node>
       <node concept="3F0ifn" id="7OODKZb517" role="3EZMnx">
-        <property role="3F0ifm" value="with text speed" />
+        <property role="3F0ifm" value="text speed" />
       </node>
       <node concept="3F0A7n" id="7OODKZb51l" role="3EZMnx">
         <ref role="1NtTu8" to="eejj:7OODKZb4ZT" resolve="textSpeed" />

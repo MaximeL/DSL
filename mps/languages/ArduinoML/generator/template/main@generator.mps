@@ -719,71 +719,7 @@
                     <property role="Xl_RC" value="LiquidCrystal lcd(" />
                   </node>
                   <node concept="Xl_RD" id="5Xve0szFJUK" role="3uHU7w">
-                    <property role="Xl_RC" value="0" />
-                    <node concept="17Uvod" id="5Xve0szFKaQ" role="lGtFl">
-                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                      <property role="2qtEX9" value="value" />
-                      <node concept="3zFVjK" id="5Xve0szFKaR" role="3zH0cK">
-                        <node concept="3clFbS" id="5Xve0szFKaS" role="2VODD2">
-                          <node concept="3KaCP$" id="5Xve0szFKoP" role="3cqZAp">
-                            <node concept="2OqwBi" id="5Xve0szFKGV" role="3KbGdf">
-                              <node concept="2OqwBi" id="5Xve0szFKsZ" role="2Oq$k0">
-                                <node concept="30H73N" id="5Xve0szFKq5" role="2Oq$k0" />
-                                <node concept="3TrEf2" id="5Xve0szFKzE" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="eejj:5CQxuj_Esk$" />
-                                </node>
-                              </node>
-                              <node concept="3TrcHB" id="4vNhoX7B7I0" role="2OqNvi">
-                                <ref role="3TsBF5" to="eejj:4vNhoX7Ahh6" resolve="plug" />
-                              </node>
-                            </node>
-                            <node concept="3clFbS" id="5Xve0szFKoR" role="3Kb1Dw">
-                              <node concept="3cpWs6" id="5Xve0szFLey" role="3cqZAp">
-                                <node concept="Xl_RD" id="5Xve0szFLhS" role="3cqZAk">
-                                  <property role="Xl_RC" value="" />
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3KbdKl" id="5Xve0szFKQB" role="3KbHQx">
-                              <node concept="3cmrfG" id="5Xve0szFKTw" role="3Kbmr1">
-                                <property role="3cmrfH" value="13" />
-                              </node>
-                              <node concept="3clFbS" id="5Xve0szFKQD" role="3Kbo56">
-                                <node concept="3cpWs6" id="5Xve0szFLle" role="3cqZAp">
-                                  <node concept="Xl_RD" id="5Xve0szFLoI" role="3cqZAk">
-                                    <property role="Xl_RC" value="2, 3, 4, 5, 6, 7, 8" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3KbdKl" id="5Xve0szFKWg" role="3KbHQx">
-                              <node concept="3cmrfG" id="5Xve0szFKZj" role="3Kbmr1">
-                                <property role="3cmrfH" value="14" />
-                              </node>
-                              <node concept="3clFbS" id="5Xve0szFKWi" role="3Kbo56">
-                                <node concept="3cpWs6" id="5Xve0szFLvt" role="3cqZAp">
-                                  <node concept="Xl_RD" id="5Xve0szFL$s" role="3cqZAk">
-                                    <property role="Xl_RC" value="10, 11, 12, 13, 14, 15, 16" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="3KbdKl" id="5Xve0szFL27" role="3KbHQx">
-                              <node concept="3cmrfG" id="5Xve0szFL5k" role="3Kbmr1">
-                                <property role="3cmrfH" value="15" />
-                              </node>
-                              <node concept="3clFbS" id="5Xve0szFL29" role="3Kbo56">
-                                <node concept="3cpWs6" id="5Xve0szFL8n" role="3cqZAp">
-                                  <node concept="Xl_RD" id="5Xve0szFLbs" role="3cqZAk">
-                                    <property role="Xl_RC" value="" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
+                    <property role="Xl_RC" value="2, 3, 4, 5, 6, 7, 8" />
                   </node>
                 </node>
               </node>
