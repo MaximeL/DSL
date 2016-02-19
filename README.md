@@ -11,7 +11,7 @@ ArduinoML
 Quiz creation DSL made with MPS.
 
 The code generated can be tested with the following emulator :  
-https://123d.circuits.io/circuits/1609456-lcd-arduino-uno  
+https://123d.circuits.io/circuits/1615129 
 
 Make sure to have :  
 * LCD pined in `(12, 13, 15, 16, 17, 18)`
